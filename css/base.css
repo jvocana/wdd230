@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+header, main, footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header, footer {
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    border-radius: .25rem;
+    padding: .5rem;
+    background-color: rgb(220, 103, 103);
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    grid-column: 1;
+    
+}
+
+header h1 {
+    grid-column: 2;
+    color: rgb(247, 245, 245);
+}
+
+main {
+    margin: 1rem auto;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    color:rgb(247, 245, 245);
+}
+
+footer #lastModified {
+    color: rgb(116, 190, 159);
+}
