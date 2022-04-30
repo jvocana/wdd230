@@ -21,12 +21,28 @@ header, footer {
 div {
     background-color: rgb(245, 245, 220);
     color: rgb(0, 0, 0);
-    border-radius: .25rem;
-    padding: 1rem;
+    border: 1px solid #bbb;
+    border-radius: .5rem;
+    display: grid;
+    margin: 1rem;
+    
+    
     
 }
 
+div h2 {
+    background-color: rgb(57, 57, 121);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+div h2, h3, a, p, img {
+    padding: .5rem;
+}
+
 div img {
-    width: 300px;
+    width: 100%;
     height: auto;
+    
 }
