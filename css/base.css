@@ -11,18 +11,13 @@ body {
 
 
 
-header, main, footer {
-    max-width: 600px;
-    margin: 0 auto;
-}
+
 
 header, footer {
-    margin: 1rem auto;
-    border: 1px solid #bbb;
-    border-radius: .25rem;
+    
     padding: .5rem;
     background-color: rgb(220, 103, 103);
-    display: grid;
+    display: block;
     align-items: center;
     text-align: center;
 }
@@ -35,6 +30,7 @@ header img {
     width: 100%;
     height: auto;
     grid-column: 1;
+    border-radius: .25rem;
 }
 
 header h1 {
@@ -43,6 +39,7 @@ header h1 {
 
 main {
     margin: 1rem auto;
+    padding: 2rem;
 }
 
 footer {

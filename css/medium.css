@@ -1,0 +1,24 @@
+@media (min-width: 32.5em) {
+ 
+    * {
+        max-width: 600px;
+    }
+    
+    header, footer {
+        
+        border: 1px solid #bbb;
+        border-radius: .25rem;
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+    
+    header {
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    header img {
+        border-radius: 0;
+    }
+
+}
