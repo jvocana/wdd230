@@ -7,6 +7,8 @@
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -18,8 +20,7 @@ header, footer {
     padding: .5rem;
     background-color: rgb(220, 103, 103);
     display: block;
-    align-items: center;
-    text-align: center;
+    
 }
 
 header {

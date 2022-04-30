@@ -1,0 +1,19 @@
+// gets current year
+const d = new Date();
+
+
+// variables to be put in the footer
+const year = d.getFullYear();
+
+const authorName = 'Jaxon Vocana';
+
+const state = 'Washington';
+
+// gets the last time the document was modified
+const lastModified = new Date(document.lastModified);
+
+
+let footerContent = `<p>&copy ${year} | ${authorName} | Last Updated: ${lastModified}</p>`;
+
+// adding the formatted string to the document
+document.querySelector('#footer').innerHTML = footerContent;
