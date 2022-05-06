@@ -7,13 +7,7 @@ const year = d.getFullYear();
 
 const authorName = 'Jaxon Vocana';
 
-const state = 'Washington';
-
-// gets the last time the document was modified
-const lastModified = new Date(document.lastModified);
-
-
-let footerContent = `<p>&copy ${year} | ${authorName} | Last Updated: ${lastModified}</p>`;
+let footerContent = `&copy ${year} | ${authorName} | Last Updated: ${document.lastModified}`;
 
 // adding the formatted string to the document
-document.querySelector('#footer').innerHTML = footerContent;
+document.querySelector('footer').innerHTML = footerContent;
