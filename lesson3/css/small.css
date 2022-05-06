@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Bodoni', serif;
+    font-size: 16px;
+    max-width: 1000px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: beige;
+    padding: .5rem;
+}
+
+a:hover {
+    color:rgb(255, 255, 255);
+}
+
+header, footer {
+    background-color: rgb(57, 57, 121);
+    color: rgb(255, 255, 255);
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: .25rem;
+}
+
+
+
+
+
+
+
