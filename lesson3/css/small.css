@@ -54,7 +54,7 @@ img {
     height: auto;
 }
 
-main div {
+main {
     padding: .25rem;
     background-color: var(--grey);
 }
@@ -101,5 +101,25 @@ section#colors div#white {
     background-color: var(--white);
 }
 
+main#targetAudience {
+    display: block;
+    
+    
+    
+}
 
+
+main#targetAudience h2 {
+    text-align: center;
+}
+main#targetAudience div {
+    border: 1px solid black;
+    border-radius: .25rem;
+    padding: .5rem;
+    margin: .25rem;
+    background-color: var(--tan);
+}
+main#targetAudience ul {
+    margin-left: 2.5rem;
+}
 
