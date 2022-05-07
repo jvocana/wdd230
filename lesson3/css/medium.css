@@ -6,4 +6,19 @@
     nav ul li {
         flex: 1 1 auto;
     }
+
+    section#colors {
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: .5rem;
+        text-align: center;
+        
+        
+    }
+    
+    section#colors div {
+        height: 300px;
+        display: block;
+    }
 }

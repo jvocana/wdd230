@@ -1,7 +1,19 @@
+:root{
+    --green: #5F816A;
+    --red: #A12B44;
+    --tan: #E9CDC3;
+    --grey: #F1E6E4;
+    --white: #FFFFFF;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
 }
 
 body {
@@ -15,29 +27,79 @@ nav ul {
 }
 
 nav ul li a {
+    font-family: 'Merriweather', serif;
     text-decoration: none;
+    color: var(--grey);
     display: block;
     text-align: center;
-    background-color: beige;
+    background-color: var(--green);
     padding: .5rem;
 }
 
 a:hover {
-    color:rgb(255, 255, 255);
+    color: var(--tan);
 }
 
 header, footer {
-    background-color: rgb(57, 57, 121);
-    color: rgb(255, 255, 255);
+    background-color: var(--red);
+    color: var(--tan);
     display: block;
     align-items: center;
     text-align: center;
     padding: .25rem;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+main div {
+    padding: .25rem;
+    background-color: var(--grey);
+}
+
+#libreBodoni {
+    font-family: 'Libre Bodoni', serif;
+}
+
+#merriweather {
+    font-family: 'Merriweather', serif;
+}
 
 
+section#colors {
+    border: 1px solid black;
+    display: block;
+    margin: .5rem;
+    text-align: center;
 
+}
+
+section#colors div {
+    height: 100px;
+    
+}
+
+section#colors div#green {
+    background-color: var(--green);
+}
+
+section#colors div#red {
+    background-color: var(--red);
+}
+
+section#colors div#tan {
+    background-color: var(--tan);
+}
+
+section#colors div#grey {
+    background-color: var(--grey);
+}
+
+section#colors div#white {
+    background-color: var(--white);
+}
 
 
 
