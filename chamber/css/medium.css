@@ -1,11 +1,47 @@
 @media (min-width: 32.5em) {
-    header nav ul#primaryNav {
-        display: flex;
-        background-color: var(--red);
-    }
-    nav ul li {
-        flex: 1 1 auto;
+    header img {
+        width: 50%;
+        height: auto;
     }
 
-    header nav button {display: none;}
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    main #hero {
+        grid-column: 1 / 3;
+    }
+    main #weather {
+        grid-column: 3 / 4;
+        grid-row: 1;
+    }
+    main #spotlight {
+        grid-template-columns: 1fr 1fr;
+        grid-column: 2 / 4;
+        grid-row: 2;
+    }
+    main #spotlight div {
+        background-color: rgba(0, 0, 0, .05);
+        padding: .25rem;
+        margin: .25rem;
+       
+        border: 1px solid black;
+    }
+    main #news {
+        grid-column: 1 / 3;
+        grid-row: 3;
+    }
+
+    footer section {
+        display: flex;
+        align-items: center;
+    }
+    footer section img {
+        width: 50%;
+    }
+    footer section div {
+        flex: 1 1 auto;
+    }
 }

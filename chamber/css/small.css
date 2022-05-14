@@ -12,10 +12,8 @@
     --white: #FFFFFF;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1 {
+    display: none;
 }
 
 h1, h2, h3, h4 {
@@ -25,6 +23,8 @@ h1, h2, h3, h4 {
 header {
     background-color: var(--red);
     color: var(--tan);
+    text-align: center;
+    padding: .25rem;
 }
 
 header img {
@@ -37,7 +37,7 @@ header nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: var(--tan);
     
 }
 
@@ -63,20 +63,44 @@ header nav ul.open {
 
 body {
     font-family: 'Libre Bodoni', serif;
-    font-size: 16px;
+    font-size: 18px;
     max-width: 1000px;
+    background-color: var(--green);
 }
 
 
 
-main div {
+main section {
     border: 1px solid black;
     border-radius: .25rem;
     padding: .5rem;
     margin: .25rem;
+    height: 300px;
+    background-color: var(--grey);
 }
 
+main #spotlight {
+    display: grid;
+}
+
+main #spotlight div {
+    background-color: rgba(0, 0, 0, .05);
+    padding: .25rem;
+    margin: .25rem;
+   
+    border: 1px solid black;
+}
 footer {
     background-color: var(--red);
+    font-size: 14px;
+    text-align: center;
+    color: var(--tan);
+    padding: .5rem;
+}
 
+footer img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
 }
