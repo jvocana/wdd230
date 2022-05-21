@@ -1,7 +1,8 @@
-@media (min-width: 62em) {
+@media (min-width: 75em) {
     header {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: auto;
     }
 
     header #currDate {
@@ -15,6 +16,7 @@
     header nav ul#primaryNav a:hover {
         border-radius: .25rem;
     }
+   
     nav ul li {
         flex: 1 1 auto;
     }
@@ -23,8 +25,66 @@
 
     body {
         font-size: 16px;
-        max-width: 1500px;
+        max-width: 1800px;
         margin: auto;
     }
+   footer section img {
+       width: 30%;
+       height: auto;
+   }
    
+   main #hero button, main #hero p {
+       font-size: 22px;
+   }
+   main #hero img {
+       height: 100%;
+       width: auto;
+   }
+   /* main content grid */
+   main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+   
+    main #hero {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    main #news {
+        grid-column: 2 / 3;
+        grid-row: 3;
+    
+    }
+
+    main #event {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    main #weather {
+        grid-column: 1;
+        grid-row: 2;
+        margin: auto;
+    }
+    main #weather section {
+        padding: 1rem;
+    }
+    main #join {
+        grid-column: 1;
+        grid-row: 3;
+        
+    
+    }
+    main #spotlight {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column: 3;
+        grid-row: 1 / 4;
+        
+    }
+    main #spotlight div {
+        background-color: rgba(0, 0, 0, .05);
+        padding: .25rem;
+        margin: .25rem;
+        border: 1px solid black;
+    }
 }

@@ -19,7 +19,9 @@ h1 {
 h1, h2, h3, h4 {
     font-family: 'Merriweather', serif;
 }
-
+main {
+    margin: auto;
+}
 header {
     background-color: var(--red);
     color: var(--tan);
@@ -68,15 +70,45 @@ body {
     background-color: var(--green);
 }
 
-
+button {padding: .25rem;}
 
 main section {
     border: 1px solid black;
     border-radius: .25rem;
     padding: .5rem;
     margin: .25rem;
-    height: 300px;
     background-color: var(--grey);
+    text-align: center;
+}
+main section h2 {
+    color: var(--red);
+    text-shadow:2px 2px .25rem var(--green);
+}
+main #hero {
+    position: relative;
+    padding: 0;
+    border: none;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+main #hero img {
+    width: 100%;
+    height: auto;
+    border-radius: .25rem;
+    padding: 0;
+}
+main #hero p {
+    
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--white);
+
+}
+main #hero button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
 
 main #spotlight {
@@ -90,6 +122,35 @@ main #spotlight div {
    
     border: 1px solid black;
 }
+main #spotlight div img {
+    width: 50%;
+    height: auto;
+}
+main #join {
+    text-align: center;
+}
+main #join p {
+    padding: .25rem;
+}
+main #weather div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main #weather div img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    
+}
+main #weather section {
+    border: none;
+}
+main #weather section p {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .25rem;
+}
+
 footer {
     background-color: var(--red);
     font-size: 14px;
@@ -103,4 +164,25 @@ footer img {
     width: 50%;
     height: auto;
     margin: auto;
+}
+
+header #banner {
+    display: none;
+}
+header #banner.showBanner {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    position: fixed;
+    background-color: var(--tan);
+    border: 1px solid black;
+    color: black;
+    float: left;
+    z-index: 100;
+    padding: .5rem;
+    width: 100%;
+    font-size: 20px;
+}
+
+header #banner p {
+    position: relative;
 }
