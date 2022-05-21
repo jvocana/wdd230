@@ -30,7 +30,7 @@ document.querySelector('#menuButton').onclick = toggleMenu;
 const banner = document.querySelector('#banner')
 
 // test day
-const currDay = 1;
+const currDay = d.getDay();
 
 function toggleBanner() {
     
