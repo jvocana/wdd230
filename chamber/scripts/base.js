@@ -32,10 +32,6 @@ const banner = document.querySelector('#banner')
 // test day
 const currDay = d.getDay();
 
-function toggleBanner() {
-    
-}
-
 function displayBanner(text) {
     if (currDay == 1 || currDay == 2) {
         // creating elements
