@@ -21,8 +21,10 @@
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-    
+
+        <!-- javascript -->
         <script src="scripts/base.js" defer></script>
+        <script src="scripts/windchill.js" defer></script>
 </head>
 <body>
     <header>
@@ -60,9 +62,10 @@
                 <img src="images/partlyCloudy.png" alt="The sun partially covered by a cloud">
                 <section>
                     <p>partly cloudy</p>
-                    <p>62 degrees</p>
+                    <p><span id="temperature">32</span> degrees</p>
                     <p>humidity: 10%</p>
-                    <p>Wind Speed: 10mph</p>
+                    <p>Wind Speed: <span id="windSpeed">10</span> mph</p>
+                    <p>Wind Chill Factor: <span id="windChill"></span> degrees</p>
                 </section>
                 
             </div>
