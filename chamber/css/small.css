@@ -134,12 +134,13 @@ main #join p {
 }
 main #weather div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
 }
 main #weather div img {
     width: 50%;
     height: auto;
-    margin: auto;
+    
     
 }
 main #weather section {

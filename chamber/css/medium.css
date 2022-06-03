@@ -1,4 +1,7 @@
 @media (min-width: 40em) {
+    body {
+        margin: auto;
+    }
     header img {
         width: 50%;
         height: auto;
@@ -7,6 +10,7 @@
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
+        
     }
 
    main #hero {
