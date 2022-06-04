@@ -31,10 +31,7 @@
         
         margin: auto;
     }
-   footer section img {
-       width: 30%;
-       height: auto;
-   }
+   
    
    main #hero button, main #hero p {
        font-size: 22px;
@@ -91,4 +88,6 @@
         margin: .25rem;
         border: 1px solid black;
     }
+   
+    
 }

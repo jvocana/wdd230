@@ -187,3 +187,12 @@ header #banner.showBanner {
 header #banner p {
     position: relative;
 }
+
+
+main.gallery {
+    display: block;
+}
+section.gallery img {
+    width: 80%;
+    height: auto;
+}
