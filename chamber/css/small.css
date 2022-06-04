@@ -192,6 +192,9 @@ header #banner p {
 main.gallery {
     display: block;
 }
+section.gallery figure {
+    padding: 2rem;
+}
 section.gallery img {
     width: 80%;
     height: auto;
