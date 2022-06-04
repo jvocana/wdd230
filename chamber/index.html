@@ -30,7 +30,7 @@
     <header>
         <a href="index.html">
             <picture>
-                <img src="images/chamberLogoTan.webp" alt="Yakima chamber of commerce logo with an apple tree.">
+                <img src="images/chamberLogo/chamberLogoTan496.webp" alt="Yakima chamber of commerce logo with an apple tree.">
             </picture>
         </a>
         <h1>Yakima Chamber of Commerce</h1>
@@ -52,7 +52,14 @@
         <section id="hero">
             <p>Welcome to Yakima</p>
             <button class="callToAction">Join the Chamber</button> 
-            <img src="images/yakima-valley.jpg" alt="A view of the Yakima valley with the city and scenery.">
+            <picture>
+                <!-- for large viewport -->
+                <source srcset="images/yakima-valley482.jpg" media="(min-width: 75em)">
+                <!-- for medium viewport -->
+                <source srcset="images/yakima-valley930.jpg" media="(min-width: 40em) and (max-width: 74.9em)">
+                <img src="images/yakima-valley623.jpg" alt="A view of the Yakima valley with the city and scenery.">
+            </picture>
+            
         </section>
         <section id="event">
             <h2>Community Barbeque Fundraiser</h2>
@@ -86,7 +93,11 @@
             <div>
                 <h2>Sun Valley Services</h2>
                 <picture>
-                    <img src="images/sunValleyLogoSmall.png" alt="logo for sun valley services">
+                    <!-- for largest viewport -->
+                    <source srcset="images/sunValley/sunValleyLogo110.png" media="(min-width: 75em)">
+                    <!-- for medium viewport -->
+                    <source srcset="images/sunValley/sunValleyLogo154.png" media="(min-width: 40em) and (max-width: 74.9em)">
+                    <img src="images/sunValley/sunValleyLogo285.png" alt="logo for sun valley services">
                 </picture>
                 <p>Professional Landscaping done right.</p>
                 <br>
@@ -96,7 +107,11 @@
             <div>
                 <h2>Washington Fruit</h2>
                 <picture>
-                    <img src="images/sunValleyLogoSmall.png" alt="logo for Washington Fruit">
+                    <!-- for largest viewport -->
+                    <source srcset="images/washingtonFruit/washingtonFruit110.png" media="(min-width: 75em)">
+                    <!-- for medium viewport -->
+                    <source srcset="images/washingtonFruit/washingtonFruit154.png" media="(min-width: 40em) and (max-width: 74.9em)">
+                    <img src="images/washingtonFruit/washingtonFruit285.png" alt="logo for Washington Fruit">
                 </picture>
                 <p>Growing apples in the Yakima valley for 70 years.</p>
                 <br>
@@ -106,7 +121,11 @@
             <div>
                 <h2>McDonald's</h2>
                 <picture>
-                    <img src="images/sunValleyLogoSmall.png" alt="logo for McDonald's">
+                    <!-- for largest viewport -->
+                    <source srcset="images/mcDonalds/mcdonalds110.png" media="(min-width: 75em)">
+                    <!-- for medium viewport -->
+                    <source srcset="images/mcDonalds/mcdonalds154.png" media="(min-width: 40em) and (max-width: 74.9em)">
+                    <img src="images/mcDonalds/mcdonaldsFull285.png" alt="logo for McDonald's">
                 </picture>
                 <p>Quality food made fast.</p>
                 <br>
@@ -122,7 +141,11 @@
     <footer>
        <section>
             <picture>
-                <img src="images/chamberLogoTan.webp" alt="Yakima chamber of commerce logo with an apple tree.">
+                <!-- for largest viewport -->
+                <source srcset="images/sunValley/sunValleyLogo110.png" media="(min-width: 75em)">
+                <!-- for medium viewport -->
+                <source srcset="images/sunValley/sunValleyLogo154.png" media="(min-width: 40em) and (max-width: 74.9em)">
+                <img src="images/chamberLogo/chamberLogoTan496.webp" alt="Yakima chamber of commerce logo with an apple tree.">
             </picture>
             <div>Yakima WA, USA</div> 
             <div>info@yakimacofc.com<div>(509)-420-6002</div></div>

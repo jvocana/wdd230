@@ -4,7 +4,10 @@
         grid-template-columns: 1fr 1fr;
         margin: auto;
     }
-
+    header img {
+        width: 100%;
+        height: auto;
+    }
     header #currDate {
         grid-column: 1 / 3;
     }
