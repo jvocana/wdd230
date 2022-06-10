@@ -6,6 +6,8 @@
     --backgreen: rgb(232,255,238);
 }
 
+
+
 table {
     font-family:Ubuntu, sans-serif;
     margin: 10px auto;
@@ -14,6 +16,7 @@ table {
     border-collapse: collapse;
     text-align: center;
     font-size: 14px;
+    width: 100%;
 }
 
 th, td {
@@ -44,4 +47,10 @@ tbody tr:nth-child(4) td:nth-child(3) {
 tfoot {
     background-color: var(--head);
     font-size: 10px;
+}
+
+@media (min-width: 25em) {
+    table {
+        width: 250px;
+    }
 }
