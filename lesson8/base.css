@@ -36,7 +36,7 @@ tbody tr:nth-child(even) {
     background-color: var(--backgreen);
 }
 
-#novemberGoal {
+tbody tr:nth-child(4) td:nth-child(3) {
     background-color: var(--columnHead);
     color: white;
 }
