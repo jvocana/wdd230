@@ -68,43 +68,8 @@ const oneDay = 1000 * 3600 * 24;
 
 
 
-function setVisit(laVisit, currVisit) {
-    if (laVisit == 'none') {
-        localStorage.setItem('currentVisit', currVisit);
-    }
-    else if (currVisit == 'none') {
-        localStorage.setItem('lastVisit', laVisit);
-    }
-    
-
-};
 
 
-function dateDiff (currVisit, laVisit) {
-    days = Math.round(currVisit - laVisit);
-    string = `It has been ${days} since your last visit.`;
-    return string;
-};
-setVisit(laVisit='none', currVisit=0);
-const currentVisit = Number(localStorage.getItem('lastVisit'));
-const lastVisit = Number(localStorage.getItem('lastVisit'));
-const lastVisited = document.querySelector('#lastVisited');
-// if the site has never been visited
-if (currentVisit == 0 & lastVisit == 0) {
-    lastVisited.textContent = 'This is your first visit.'
-    // next time they visit the site this will be right
-    setVisit(laVisit=Date.now(), currVisit='none');
-}
-// if the site has been visited once before
-else if (lastVisit != 0 & currentVisit == 0) {
-    setVisit(laVisit='none', currVisit=Date.now());
-    // call date difference function
-    
-    lastVisited.textContent = dateDiff(currVisit=currentVisit, laVisit=lastVisit);
-    // set last to current and set current to zero
-    setVisit(currVisit='none', laVisit=currentVisit);
-    setVisit(currVisit = 0, laVisit='none');
-};
-
-console.log(lastVisit);
+// hidden form element
+document.querySelector('#currFormTime').textContent = Date.now();
 

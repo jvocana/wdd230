@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Yakima Chamber of Commerce</title>
+    <meta name="description"
+        content="A form where you can join the chamber of commerce.">
+        
+        <!-- favicon -->
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+
+        <!-- javascript -->
+        <script src="scripts/base.js" defer></script>
+        
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <picture>
+                <img src="images/chamberLogo/chamberLogoTan496.webp" alt="Yakima chamber of commerce logo with an apple tree.">
+            </picture>
+        </a>
+        <h1>Yakima Chamber of Commerce</h1>
+        <nav>
+            <button id="menuButton">&#9776;</button>
+            <ul id='primaryNav'>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="">Things for testing</a></li>
+            </ul>
+        </nav>
+        <div id="currDate"></div>
+        <div id="banner" class="">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        </div>
+    </header>
+    <main class="form">
+        <h2 class="form">Chamber of Commerce Membership Application</h1>
+
+        <form method="get" action="thankyou.html">
+        
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top">First Name <input type="text" name="fname" required></label>
+            <label class="top">Last Name <input type="text" name="lname" required></label>
+            <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Business Position <div>Must contain only letters and hyphens and must be 7+ characters</div> <input type="text" name="busPosition" pattern="[A-Za-z- ]{7,}"></label>
+            <label class="top">Business Name <input type="text" name="busName" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Membership Level</legend>
+            <label class="sbs"><input type="radio" name="memLevel" value="NP">Non-Profit, no fee</label>
+            <label class="sbs"><input type="radio" name="memLevel" value="Bronze">Bronze $500/yr</label>
+            <label class="sbs"><input type="radio" name="memLevel" value="Silver">Silver $1,000/yr</label>
+            <label class="sbs"><input type="radio" name="memLevel" value="Gold">Gold $1,500/yr</label>
+        </fieldset>
+        <fieldset>
+            <legend>Business Description</legend>
+            <div>Briefly describe you business below</div>
+            <textarea rows = "5" name = "description"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit My Application" class="submitBtn">
+        <div id="currFormTime"></div>
+        </form>
+    </main>
+    <footer>
+       <section>
+            <picture>
+                <img src="images/chamberLogo/chamberLogoTan496.webp" alt="Yakima chamber of commerce logo with an apple tree.">
+            </picture>
+            <div>Yakima WA, USA</div> 
+            <div>info@yakimacofc.com<div>(509)-420-6002</div></div>
+        </section>
+        <div id="footerContent"></div>
+    </footer>
+</body>

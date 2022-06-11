@@ -63,4 +63,8 @@
         transition: 0.25s;
 
     }
+
+    form textarea {
+        width: 50%;
+    }
 }
