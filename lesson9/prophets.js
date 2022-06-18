@@ -1,6 +1,6 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
-let number = 1;
+
 function displayProphets(prophet) {
     // Create elements to add to the document
     let card = document.createElement('section');
@@ -33,7 +33,7 @@ function displayProphets(prophet) {
     portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${orderEnding} Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
     
-    number = number + 1;
+    
 
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);

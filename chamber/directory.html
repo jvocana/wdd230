@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join the Yakima Chamber of Commerce</title>
+    <title>Yakima Chamber of Commerce Business Directory</title>
     <meta name="description"
-        content="A form where you can join the chamber of commerce.">
+        content="A directory of all the businesses that are a part of the Chamber of Commerce in Yakima.">
         
         <!-- favicon -->
         <link rel="shortcut icon" href="favicon.ico">
@@ -24,7 +24,6 @@
 
         <!-- javascript -->
         <script src="scripts/base.js" defer></script>
-        
 </head>
 <body>
     <header>
@@ -48,9 +47,13 @@
             <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
     </header>
-    <main class="form">
-        <h2 class="form">Chamber of Commerce Membership Application Received</h1>
-        <div>Thank you for applying to the Yakima Chamber of Commerce. You will receive a confirmation email shortly.</p>
+    <main class="directory">
+        <div class="menu">
+            <button id="grid">grid</button>
+            <button id="list">list</button>
+        </div>
+        <div id="directoryWrapper" class="grid">
+        </div>
     </main>
     <footer>
        <section>

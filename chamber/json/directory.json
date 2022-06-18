@@ -1,0 +1,94 @@
+{
+    "businesses": [
+    {
+        "name": "Sun Valley Services",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images/sunValley/",
+        "phone": "(509)509-3838",
+        "membership": "",
+        "slogan": "Professional Landscaping done right.",
+        "email": "someone@sunvalleysvcs.com"
+    },
+    {
+        "name": "Washington Fruit",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/",
+        "phone": "(509)509-3273",
+        "membership": "",
+        "slogan": "Growing apples in the Yakima valley for 70 years.",
+        "email": "someone@washingtonfruit.com"
+    },
+    {
+        "name": "McDonald's",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images/mcDonalds/",
+        "phone": "(509)509-2299",
+        "membership": "",
+        "slogan": "Quality food made fast",
+        "email": "someone@mcdyak.com"
+    },
+    {
+        "name": "Sun Valley Services",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images",
+        "phone": "",
+        "membership": "",
+        "slogan": "",
+        "email": ""
+    },
+    {
+        "name": "Sun Valley Services",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images",
+        "phone": "",
+        "membership": "",
+        "slogan": "",
+        "email": ""
+    },   
+    {
+        "name": "Sun Valley Services",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images",
+        "phone": "",
+        "membership": "",
+        "slogan": "",
+        "email": ""
+    },
+    {
+        "name": "Sun Valley Services",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images",
+        "phone": "",
+        "membership": "",
+        "slogan": "",
+        "email": ""
+    },
+    {
+        "name": "Sun Valley Services",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images",
+        "phone": "",
+        "membership": "",
+        "slogan": "",
+        "email": ""
+    },
+    {
+        "name": "Sun Valley Services",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images",
+        "phone": "",
+        "membership": "",
+        "slogan": "",
+        "email": ""
+    },
+    {
+        "name": "Sun Valley Services",
+        "websiteurl": "www.sunvalleyservices.com",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images",
+        "phone": "",
+        "membership": "",
+        "slogan": "",
+        "email": ""
+    }      
+    ]
+}
