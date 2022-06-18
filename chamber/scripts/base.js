@@ -71,7 +71,7 @@ const oneDay = 1000 * 3600 * 24;
 
 
 // hidden form element
-document.querySelector('#currFormTime').textContent = Date.now();
+//document.querySelector('#currFormTime').textContent = Date.now();
 
 
 
