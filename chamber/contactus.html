@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yakima Chamber of Commerce Business Directory</title>
+    <title>Yakima Chamber of Commerce Contact Us page</title>
     <meta name="description"
-        content="A directory of all the businesses that are a part of the Chamber of Commerce in Yakima.">
+        content="How to get in contact with the Yakima Chamber to answer questions and inquiries.">
         
         <!-- favicon -->
         <link rel="shortcut icon" href="favicon.ico">
@@ -24,6 +24,8 @@
 
         <!-- javascript -->
         <script src="scripts/base.js" defer></script>
+       
+        <script src="scripts/lazyLoad.js" defer></script>
 </head>
 <body>
     <header>
@@ -48,13 +50,29 @@
             <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
     </header>
-    <main class="directory">
-        <div class="menu">
-            <button id="grid">grid</button>
-            <button id="list">list</button>
+    <main id="contactus">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label class="top">Name<input type="text" name="fname" required></label>
+                <label class="top">Email<input type="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Questions or Concerns<input type="text" name="questions" required></label>
+                <input type="submit" value="Submit My Question" class="submitBtn">
+            </fieldset> 
+        </form>
+
+        
+        
+            
+            
+        <div>
+            <h3>Contact Information</h3>
+            <p>Yakima Chamber of Commerce</p>
+            <p>123456 W Yakima ave.</p>
+            <p>Yakima WA, 98908</p>
+            <p>(509)-380-5566</p>
         </div>
-        <div id="directoryWrapper" class="grid">
-        </div>
+       
     </main>
     <footer>
        <section>
@@ -63,6 +81,7 @@
             </picture>
             <div>Yakima WA, USA</div> 
             <div>info@yakimacofc.com<div>(509)-420-6002</div></div>
+            <div>Weather data provided by: OpenWeatherMap</div>
         </section>
         <div id="footerContent"></div>
     </footer>

@@ -5,7 +5,7 @@
 }
 
 :root{
-    --green: #5F816A;
+    --green: #2a4f35;
     --red: #A12B44;
     --tan: #E9CDC3;
     --grey: #F1E6E4;
@@ -214,6 +214,9 @@ form {
     padding: .5rem;
     margin-bottom: 2%;
     border-radius: .25rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 form fieldset {
     margin: 2rem 0;
@@ -325,3 +328,20 @@ form #currFormTime {
 	text-align: left;
 }
 
+/* contact us page */
+
+#contactus {
+    display: block;    
+}
+#contactus div {
+    text-align: center;
+    padding: .5rem;
+    background-color: var(--grey);
+    max-width: fit-content;
+    margin: auto;
+    border-radius: .25rem;
+    margin-bottom: .5rem;
+}
+#contactus form .submitBtn {
+    margin-top: 1rem;
+}

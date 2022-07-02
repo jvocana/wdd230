@@ -67,4 +67,12 @@
     form textarea {
         width: 50%;
     }
+
+    #contactus {
+        margin: .5rem;
+    }
+    #contactus form {
+        margin-top: .5rem;
+    }
+    
 }
