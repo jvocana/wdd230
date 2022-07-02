@@ -1,7 +1,7 @@
 
 
-const wind = 10 // document.querySelector('#windSpeed');
-const temperature = 32 // parseInt(document.querySelector('#temperature').value);
+const wind = document.querySelector('#windSpeed');
+const temperature = parseInt(document.querySelector('#temperature').value);
 const windChill = document.querySelector('#windChill');
 function windChillFactor() {
     // f = 35.74 + 0.6215t - 35.75s^0.16 + 0.4275ts^0.16
@@ -16,4 +16,3 @@ function windChillFactor() {
 };
 
 windChillFactor();
-console.log(wind);

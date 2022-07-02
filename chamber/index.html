@@ -24,6 +24,7 @@
 
         <!-- javascript -->
         <script src="scripts/base.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
         <script src="scripts/windchill.js" defer></script>
         <script src="scripts/lazyLoad.js" defer></script>
 </head>
@@ -72,14 +73,15 @@
             <h2>Weather</h2>
             <div>
                 <picture>
-                    <img src="images/partlyCloudy.png" alt="The sun partially covered by a cloud">
+                    <img id="weather-icon">
                 </picture>
                 <section>
                     <p>partly cloudy</p>
-                    <p><span id="temperature">32</span> degrees</p>
-                    <p>humidity: 10%</p>
-                    <p>Wind Speed: <span id="windSpeed">10</span> mph</p>
+                    <p><span id="temperature"></span> degrees</p>
+                    <p>humidity: <span id="humidity"></span></p>
+                    <p>Wind Speed: <span id="windSpeed"></span> mph</p>
                     <p>Wind Chill Factor: <span id="windChill"></span> degrees</p>
+                    <p id="description"></p>
                 </section>
                 
             </div>
