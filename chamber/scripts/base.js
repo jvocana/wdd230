@@ -128,30 +128,63 @@ function displayBusiness (business) {
     // adding card to document
     document.querySelector('#directoryWrapper').appendChild(card);
     
-}
+};
 
-const spotlightWrapper = document.querySelector('#spotlight');
 
-function displayGoldMembers (business) {
-    if (business.membership === 'gold') {
-        let card = document.createElement('div');
-        card.innerHTML = `
-            <h2>${business.name}</h2>
-                <picture>
-                    <!-- for largest viewport -->
-                    <source srcset="${business.logo[2]}" media="(min-width: 75em)">
-                    <!-- for medium viewport -->
-                    <source srcset="${business.logo[1]}" media="(min-width: 40em) and (max-width: 74.9em)">
-                    <img src="${business.logo[0]}" alt="logo for sun valley services">
-                </picture>
-                <p>${business.slogan}</p>
-                <br>
-                <p>${business.phone}</p>
-                <p>${business.email}</p>`;
+
+function displayGoldMembers (businesses) {
+   
+        let div = document.createElement('div');
+        
+        let h2 = document.createElement('h2');
+        h2.textContent = businesses.name;
+
+        let picture = document.createElement('picture');
+        
+        let source1 = document.createElement('source');
+        source1.setAttribute('srcset', businesses.logo[2]);
+        source1.setAttribute('media', '(min-width: 75em)');
+        source1.setAttribute('loading', 'lazy');
+        
+        let source2 = document.createElement('source');
+        source2.setAttribute('srcset', businesses.logo[1]);
+        source2.setAttribute('media', '(min-width: 40em) and (max-width: 74.9em)');
+        source2.setAttribute('loading', 'lazy');
+        
+        let img = document.createElement('img');
+        img.setAttribute('src', businesses.logo[0]);
+        img.setAttribute('alt', `logo for ${businesses.name}`);
+        img.setAttribute('loading', 'lazy');
+       
+        let p1 = document.createElement('p');
+        p1.textContent = businesses.slogan;
+        
+        let br = document.createElement('br');
+        
+        let p2 = document.createElement('p');
+        p2.textContent = businesses.phone;
+        
+        let p3 = document.createElement('p');
+        p3.textContent = businesses.email;
+
+        picture.appendChild(source1);
+        picture.appendChild(source2);
+        picture.appendChild(img);
+
+        div.appendChild(h2);
+        div.appendChild(picture);
+        div.appendChild(p1);
+        div.appendChild(p2);
+        div.appendChild(br);
+        div.appendChild(p3);
+
+        document.querySelector('main #spotlightsection').appendChild(div);
+
+
         
         
-        document.querySelector('#spotlight').appendChild(card);
-    }
+        
+    
 };
 
 const requestURL = 'https://jvocana.github.io/wdd230/chamber/json/directory.json';
@@ -163,6 +196,13 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const businesses = jsonObject['businesses'];
         businesses.forEach(displayBusiness);
-        businesses.forEach(displayGoldMembers);
     });
 
+    fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        const businesses = jsonObject['businesses'];
+        businesses.forEach(displayGoldMembers);
+    });
