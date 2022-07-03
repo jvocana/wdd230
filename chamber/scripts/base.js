@@ -106,7 +106,7 @@ function displayBusiness (business) {
 
     // logo
     let logo = document.createElement('img');
-    logo.setAttribute('src', business.logo);
+    logo.setAttribute('src', business.logo[0]);
     logo.setAttribute('alt', `logo for ${business.name}`);
     logo.setAttribute('loading', 'lazy');
     
@@ -133,9 +133,9 @@ function displayBusiness (business) {
 const spotlightWrapper = document.querySelector('#spotlight');
 
 function displayGoldMembers (business) {
-    if (business.membership == 'gold') {
+    if (business.membership === 'gold') {
         let card = document.createElement('div');
-        card.textContent = `
+        card.innerHTML = `
             <h2>${business.name}</h2>
                 <picture>
                     <!-- for largest viewport -->
@@ -150,7 +150,7 @@ function displayGoldMembers (business) {
                 <p>${business.email}</p>`;
         
         
-        spotlightWrapper.appendChild(card);
+        document.querySelector('#spotlight').appendChild(card);
     }
 };
 

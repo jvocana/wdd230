@@ -12,7 +12,7 @@
     {
         "name": "Washington Fruit",
         "websiteurl": "www.sunvalleyservices.com",
-        "logo": ["https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/washingtonFruit.110", "https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/washingtonFruit.154", "https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/washingtonFruit.285"],
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/washingtonFruit110.png", "https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/washingtonFruit154.png", "https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/washingtonFruit285.png"],
         "phone": "(509)509-3273",
         "membership": "gold",
         "slogan": "Growing apples in the Yakima valley for 70 years.",
@@ -30,7 +30,7 @@
     {
         "name": "Yakima Chamber of Commerce",
         "websiteurl": "www.yakimacofc.org",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images/chamberLogo/chamberLogo.webp",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images/chamberLogo/chamberlogo.webp",
         "phone": "(509)-123-1234",
         "membership": "gold",
         "slogan": "",
