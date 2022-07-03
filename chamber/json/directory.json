@@ -3,92 +3,83 @@
     {
         "name": "Sun Valley Services",
         "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images/sunValley/sunValleyLogo154.png",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/sunValley/sunValleyLogo110.png", "https://jvocana.github.io/wdd230/chamber/images/sunValley/sunValleyLogo154.png", "https://jvocana.github.io/wdd230/chamber/images/sunValley/sunValleyLogo285.png"],
         "phone": "(509)509-3838",
-        "membership": "",
+        "membership": "silver",
         "slogan": "Professional Landscaping done right.",
         "email": "someone@sunvalleysvcs.com"
     },
     {
         "name": "Washington Fruit",
         "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/washingtonFruit.110", "https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/washingtonFruit.154", "https://jvocana.github.io/wdd230/chamber/images/washingtonFruit/washingtonFruit.285"],
         "phone": "(509)509-3273",
-        "membership": "",
+        "membership": "gold",
         "slogan": "Growing apples in the Yakima valley for 70 years.",
         "email": "someone@washingtonfruit.com"
     },
     {
         "name": "McDonald's",
         "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images/mcDonalds/",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/mcDonalds/mcdonalds110.png", "https://jvocana.github.io/wdd230/chamber/images/mcDonalds/mcdonalds154.png", "https://jvocana.github.io/wdd230/chamber/images/mcDonalds/mcdonalds285.png"],
         "phone": "(509)509-2299",
-        "membership": "",
+        "membership": "gold",
         "slogan": "Quality food made fast",
         "email": "someone@mcdyak.com"
     },
     {
-        "name": "Sun Valley Services",
-        "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images",
-        "phone": "",
-        "membership": "",
+        "name": "Yakima Chamber of Commerce",
+        "websiteurl": "www.yakimacofc.org",
+        "logo": "https://jvocana.github.io/wdd230/chamber/images/chamberLogo/chamberLogo.webp",
+        "phone": "(509)-123-1234",
+        "membership": "gold",
         "slogan": "",
         "email": ""
     },
     {
         "name": "Sun Valley Services",
         "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images",
-        "phone": "",
-        "membership": "",
-        "slogan": "",
-        "email": ""
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images"],
+        "phone": "(509)-123-1234",
+        "membership": "silver",
+        "slogan": "Landscaping done right.",
+        "email": "someone@sunvalleysvcs.com"
     },   
     {
         "name": "Sun Valley Services",
         "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images",
-        "phone": "",
-        "membership": "",
-        "slogan": "",
-        "email": ""
-    },
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images"],
+        "phone": "(509)-123-1234",
+        "membership": "silver",
+        "slogan": "Landscaping done right.",
+        "email": "someone@sunvalleysvcs.com"
+    }, 
     {
         "name": "Sun Valley Services",
         "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images",
-        "phone": "",
-        "membership": "",
-        "slogan": "",
-        "email": ""
-    },
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images"],
+        "phone": "(509)-123-1234",
+        "membership": "silver",
+        "slogan": "Landscaping done right.",
+        "email": "someone@sunvalleysvcs.com"
+    }, 
     {
         "name": "Sun Valley Services",
         "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images",
-        "phone": "",
-        "membership": "",
-        "slogan": "",
-        "email": ""
-    },
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images"],
+        "phone": "(509)-123-1234",
+        "membership": "silver",
+        "slogan": "Landscaping done right.",
+        "email": "someone@sunvalleysvcs.com"
+    }, 
     {
         "name": "Sun Valley Services",
         "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images",
-        "phone": "",
-        "membership": "",
-        "slogan": "",
-        "email": ""
-    },
-    {
-        "name": "Sun Valley Services",
-        "websiteurl": "www.sunvalleyservices.com",
-        "logo": "https://jvocana.github.io/wdd230/chamber/images",
-        "phone": "",
-        "membership": "",
-        "slogan": "",
-        "email": ""
-    }      
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images"],
+        "phone": "(509)-123-1234",
+        "membership": "silver",
+        "slogan": "Landscaping done right.",
+        "email": "someone@sunvalleysvcs.com"
+    }
     ]
 }

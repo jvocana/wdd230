@@ -130,6 +130,30 @@ function displayBusiness (business) {
     
 }
 
+const spotlightWrapper = document.querySelector('#spotlight');
+
+function displayGoldMembers (business) {
+    if (business.membership == 'gold') {
+        let card = document.createElement('div');
+        card.textContent = `
+            <h2>${business.name}</h2>
+                <picture>
+                    <!-- for largest viewport -->
+                    <source srcset="${business.logo[2]}" media="(min-width: 75em)">
+                    <!-- for medium viewport -->
+                    <source srcset="${business.logo[1]}" media="(min-width: 40em) and (max-width: 74.9em)">
+                    <img src="${business.logo[0]}" alt="logo for sun valley services">
+                </picture>
+                <p>${business.slogan}</p>
+                <br>
+                <p>${business.phone}</p>
+                <p>${business.email}</p>`;
+        
+        
+        spotlightWrapper.appendChild(card);
+    }
+};
+
 const requestURL = 'https://jvocana.github.io/wdd230/chamber/json/directory.json';
 
 fetch(requestURL)
@@ -139,5 +163,6 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const businesses = jsonObject['businesses'];
         businesses.forEach(displayBusiness);
+        businesses.forEach(displayGoldMembers);
     });
 
