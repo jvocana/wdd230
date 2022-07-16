@@ -5,7 +5,7 @@ const captionDesc = document.querySelector('#description');
 const humidity = document.querySelector('#humidity');
 const windSpeed = document.querySelector('#windSpeed');
 
-const url = 'http://api.openweathermap.org/data/2.5/weather?q=Yakima&units=imperial&appid=d4ecc5f5851ad237ea92914d71ff33e2'
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Yakima&units=imperial&appid=d4ecc5f5851ad237ea92914d71ff33e2'
 
 function displayResults (data) {
     currentTemp.textContent = data.main.temp;
