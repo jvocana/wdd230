@@ -9,7 +9,7 @@ const authorName = 'Jaxon Vocana'
 const footerContent = `&copy ${year} | ${authorName} | Last Updated: ${document.lastModified}`;
 
 // adding the formatted string to the document
-document.querySelector('#lastModified').textContent = footerContent;
+document.querySelector('#lastModified').innerHTML = footerContent;
 
 
 // toggle menu

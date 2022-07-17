@@ -1,0 +1,146 @@
+{
+    "temples": [
+        {
+            "name": "Baton Rouge Louisiana Temple",
+            "location": "10339 Highland Rd Baton Rouge LA 70810 United States",
+            "phone": "(1) 225-769-1197",
+            "email": "https://www.churchofjesuschrist.org/temples/details/baton-rouge-louisiana-temple?lang=eng",
+            "ordSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "sessionSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closureSched": {
+                "2022": [
+                    "Saturday, 1 October 2022",
+                    "Monday, 31 October 2022 - Monday, 14 November 2022",
+                    "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022 - Monday, 26 December 2022",
+                    "Saturday, 31 December 2022 - Monday, 2 January 2023"],
+                "2023": [
+                    "Saturday, 1 April 2023",
+                    "Monday, 1 May 2023 - Monday, 15 May 2023",
+                    "Tuesday, 4 July 2023",
+                    "Saturday, 30 September 2023",
+                    "Sunday, 29 October 2023 - Sunday, 12 November 2023",
+                    "Wednesday, 22 November 2023 - Thursday, 23 November 2023",
+                    "Sunday, 24 December 2023 - Tuesday, 26 December 2023",
+                    "Sunday, 31 December 2023 - Monday, 1 January 2024"]
+            },
+            "dedicated": "16 July 2000",
+            "img": "https://assets.ldscdn.org/64/51/6451dea44531db4c096c1cb2058d0b7bd982abec/baton_rouge_louisiana_temple.jpeg",
+            "services": {"clothing": "n", "cafeteria": "y", "patronHousing": "n", "distributionCntr": "n"}
+        },
+        {
+            "name": "Boise Idaho Temple",
+            "location": "1211 S Cole Rd Boise ID 83709-1871 United States",
+            "phone": "(1) 208-322-4422",
+            "email": "https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
+            "ordSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "sessionSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closureSched": {
+                "2022": [
+                    "Saturday, 1 October 2022",
+                    "Monday, 10 October 2022 - Monday, 24 October 2022",
+                    "Wednesday, 23 November 2022 (Limited Operations)",
+                    "Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022 (Limited Operations)"
+                ],
+                "2023": [
+                    "Saturday, 1 April 2023",
+                    "Monday, 1 May 2023 - Monday, 15 May 2023",
+                    "Tuesday, 4 July 2023",
+                    "Saturday, 30 September 2023",
+                    "Monday, 9 October 2023 - Monday, 23 October 2023",
+                    "Wednesday, 22 November 2023 (Limited Operations)",
+                    "Thursday, 23 November 2023"
+                ]
+            },
+            "dedicated": "25 May 1984",
+            "img": "https://assets.ldscdn.org/29/8b/298bdc171826d2561184579b7f51521f36994836/boise_idaho_temple_sunshine.jpeg",
+            "services": {"clothing": "n", "cafeteria": "n", "patronHousing": "n", "distributionCntr": "y"}
+        },
+        {
+            "name": "Brigham City Utah Temple",
+            "location": "250 S Main St Brigham City UT 84302-2560 United States",
+            "phone": "(1) 435-695-2170",
+            "email": "https://www.churchofjesuschrist.org/temples/details/brigham-city-utah-temple?lang=eng",
+            "ordSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "sessionSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closureSched": {
+                "2022": [
+                    "Monday, 8 August 2022 - Monday, 22 August 2022",
+                    "Friday, 9 September 2022 (Limited Operations)",
+                    "Saturday, 10 September 2022",
+                    "Saturday, 1 October 2022",
+                    "Wednesday, 23 November 2022 (Limited Operations)",
+                    "Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022 (Limited Operations)"
+                ],
+                "2023": [
+                    "Monday, 27 February 2023 - Monday, 13 March 2023",
+                    "Saturday, 1 April 2023",
+                    "Tuesday, 4 July 2023",
+                    "Monday, 7 August 2023 - Monday, 21 August 2023",
+                    "Friday, 8 September 2023 (Limited Operations)",
+                    "Saturday, 9 September 2023",
+                    "Saturday, 30 September 2023",
+                    "Wednesday, 22 November 2023 (Limited Operations)",
+                    "Thursday, 23 November 2023",
+                    "Saturday, 23 December 2023",
+                    "Saturday, 30 December 2023 (Limited Operations)"
+                ]
+            },
+            "dedicated": "23 September 2012",
+            "img": "https://assets.ldscdn.org/93/92/9392e6adee3d1aa025548de1a852a27ad8ea40f4/brigham_city_utah_temple_dawn.jpeg",
+            "services": {"clothing": "n", "cafeteria": "n", "patronHousing": "n", "distributionCntr": "y"}
+        },
+        {
+            "name": "Chicago Illinois Temple",
+            "location": "4151 W Lake Ave Glenview IL 60025-1240 United States",
+            "phone": "(1) 847-299-6500",
+            "email": "https://www.churchofjesuschrist.org/temples/details/chicago-illinois-temple?lang=eng",
+            "ordSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "sessionSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closureSched": {
+                "2022": [
+                    "Monday, 29 August 2022 - Monday, 12 September 2022",
+                    "Saturday, 1 October 2022",
+                    "Wednesday, 23 November 2022 (Limited Operations)",
+                    "Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022"
+                ],
+                "2023": [
+                    "Monday, 28 August 2023 - Monday, 11 September 2023"
+                ]
+            },
+            "dedicated": "9 August 1985",
+            "img": "https://assets.ldscdn.org/c6ad76bb441238a309b38ac6d1f698c1d32b504f",
+            "services": {"clothing": "y", "cafeteria": "n", "patronHousing": "n", "distributionCntr": "y"}
+        },
+        {
+            "name": "Dallas Texas Temple",
+            "location": "6363 Willow Ln Dallas TX 75230-2227 United States",
+            "phone": "(1) 972-991-1273",
+            "email": "https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng",
+            "ordSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "sessionSched": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closureSched": {
+                "2022": [
+                    "Saturday, 1 October 2022",
+                    "Wednesday, 23 November 2022 (Limited Operations)",
+                    "Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022"
+                ],
+                "2023": [
+                    "Monday, 24 April 2023 - Monday, 8 May 2023",
+                    "Monday, 23 October 2023 - Monday, 6 November 2023"
+                ]
+            },
+            "dedicated": "19 October 1984",
+            "img": "https://assets.ldscdn.org/3a/22/3a227fd5a3b70bee2fecf6fae7adbdf0aeb430dc/dallas_texas_temple.jpeg",
+            "services": {"clothing": "y", "cafeteria": "n", "patronHousing": "n", "distributionCntr": "y"}
+        }
+    ]
+}
