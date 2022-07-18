@@ -22,7 +22,7 @@ header, footer {
   background-color: var(--red);
 }
 
-header nav button {
+header nav button, main #seeMoreButton {
   margin: .2rem 2vw;
   background: transparent;
   border: none;
@@ -160,4 +160,15 @@ form label.top input:required {
 
 form label.top input:required:valid {
   border-top: green solid 6px;
+}
+
+
+/* temple page */
+
+section#moreInfo {
+  display: none;
+}
+
+section#moreInfo.showInfo {
+  display: block;
 }
