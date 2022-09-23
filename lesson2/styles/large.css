@@ -1,0 +1,8 @@
+@media (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main section:nth-last-child(1) {
+        grid-column: 3;
+    }
+}
