@@ -1,0 +1,129 @@
+:root{
+    --dark: #252D2B;
+    --paleBlue: #889696;
+    --green: #ACB2A9;
+    --gray: #D2D4C8;
+    --white: #ECEDE8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: 'Libre Bodoni', serif;
+    font-size: 16px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: var(--dark);
+    color: var(--white)
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    color: var(--white);
+    display: block;
+    text-align: center;
+    background-color: var(--green);
+    padding: .5rem;
+}
+
+a:hover {
+    color: var(--gray);
+}
+
+header, footer {
+    background-color: var(--red);
+    color: var(--tan);
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: .25rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: .25rem;
+    background-color: var(--grey);
+}
+
+#libreBodoni {
+    font-family: 'Libre Bodoni', serif;
+}
+
+#merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+
+section#colors {
+    border: 1px solid black;
+    display: block;
+    margin: .5rem;
+    text-align: center;
+
+}
+
+section#colors div {
+    height: 100px;
+    
+}
+
+section#colors div#green {
+    background-color: var(--green);
+}
+
+section#colors div#paleBlue {
+    background-color: var(--paleBlue);
+}
+
+section#colors div#darkGray {
+    background-color: var(--dark);
+}
+
+section#colors div#gray {
+    background-color: var(--gray);
+}
+
+section#colors div#white {
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+main#targetAudience {
+    display: block;
+    
+    
+    
+}
+
+
+main#targetAudience h2 {
+    text-align: center;
+}
+main#targetAudience div {
+    border: 1px solid black;
+    border-radius: .25rem;
+    padding: .5rem;
+    margin: .25rem;
+    background-color: var(--paleBlue);
+}
+main#targetAudience ul {
+    margin-left: 2.5rem;
+}
+
