@@ -1,0 +1,47 @@
+@media (min-width: 32.5em) {
+    
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+
+    #spotlights {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #hero, #newsRelease, #spotlights, #join {
+        grid-column: 1 / 3;
+    }
+
+    #newsRelease {
+        grid-row: 2;
+    }
+
+    #spotlights {
+        grid-row: 3;
+    }
+
+    #join {
+        grid-row: 4;
+    }
+
+    footer {
+        display: block;
+        margin: .5rem;
+    }
+
+    footer div {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    footer div img {
+        width: 50%;
+    }
+
+    footer #info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

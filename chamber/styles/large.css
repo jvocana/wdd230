@@ -1,0 +1,50 @@
+@media (min-width: 62.5em) {
+    
+    body {
+        max-width: 1200px;
+    }
+    main {
+        margin: auto;
+        grid-template-columns: 1fr 2fr 1fr;
+        
+    }
+
+    header nav ul.open {
+        
+        width: 20%;
+        right: 10px;
+    }
+
+    #event {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #hero {
+        grid-column: 2;
+        grid-row: 1 / 3;
+        height: auto;
+    }
+
+    #spotlights {
+        grid-column: 3;
+        grid-row: 1 / 4;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    #weather {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #join {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #newsRelease {
+        grid-row: 3;
+        grid-column: 2;
+    }
+}
