@@ -9,10 +9,21 @@
         
     }
 
-    header nav ul.open {
-        
-        width: 20%;
-        right: 10px;
+    header div {
+        order: 3;
+    }
+
+    header img {
+        width: 30%;
+    }
+
+    header nav ul {
+        display: flex;
+    }
+
+
+    #menuButton {
+        display: none;
     }
 
     #event {
