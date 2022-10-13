@@ -24,3 +24,36 @@ function toggleMenu() {
 }
 
 document.querySelector('#menuButton').onclick = toggleMenu;
+
+
+
+
+// banner display message
+const banner = document.querySelector('#banner');
+const currDay = 1;
+
+function displayBanner (text) {
+    // if it is monday or tuesday
+    if (currDay == 1 || currDay == 2) {
+        // adding text to banner
+        bannerMessage = document.createElement('div');
+        bannerMessage.textContent = text;
+        
+        // delete button
+        bannerDelete = document.createElement('button');
+        bannerDelete.setAttribute('aria-label', 'Close welcome Banner');
+        bannerDelete.textContent = '❌';
+
+        banner.appendChild(bannerMessage);
+        banner.appendChild(bannerDelete);
+
+        
+        // toggling classlist to display banner
+        banner.classList.toggle('displayBanner');
+        bannerDelete.addEventListener('click', deleteBanner => {
+            banner.classList.toggle('displayBanner');
+        });
+    };
+};
+
+displayBanner ('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.')

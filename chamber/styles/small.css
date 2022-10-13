@@ -134,3 +134,41 @@ hr {
     margin: auto;
     background-color: var(--green);
 }
+
+/* banner */
+#banner {
+    display: none;
+    
+}
+
+#banner.displayBanner {
+    /* position */
+    position: fixed;
+    top: 75px;
+    
+    right: auto;
+    display: inline;
+    
+    margin: .25rem;
+    
+    background-color: var(--dark);
+    color: var(--gray);
+    border: 1px solid black;
+    border-radius: .25rem;
+
+}
+
+#banner.displayBanner button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#banner.displayBanner div {
+    padding: .25rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
