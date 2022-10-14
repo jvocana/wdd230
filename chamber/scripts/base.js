@@ -30,7 +30,7 @@ document.querySelector('#menuButton').onclick = toggleMenu;
 
 // banner display message
 const banner = document.querySelector('#banner');
-const currDay = 1;
+const currDay = d.getDay();
 
 function displayBanner (text) {
     // if it is monday or tuesday
@@ -42,7 +42,7 @@ function displayBanner (text) {
         // delete button
         bannerDelete = document.createElement('button');
         bannerDelete.setAttribute('aria-label', 'Close welcome Banner');
-        bannerDelete.textContent = '❌';
+        bannerDelete.innerHTML = '&#x2715;';
 
         banner.appendChild(bannerMessage);
         banner.appendChild(bannerDelete);

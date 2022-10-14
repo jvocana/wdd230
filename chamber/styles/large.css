@@ -29,12 +29,15 @@
     #event {
         grid-column: 1;
         grid-row: 1;
+        height: 185px;
     }
 
     #hero {
         grid-column: 2;
         grid-row: 1 / 3;
         height: auto;
+        height: 370px;
+        margin: auto;
     }
 
     #spotlights {
@@ -47,6 +50,7 @@
     #weather {
         grid-column: 1;
         grid-row: 2;
+        height: 185px;
     }
 
     #join {
@@ -57,5 +61,35 @@
     #newsRelease {
         grid-row: 3;
         grid-column: 2;
+    }
+
+    /* banner */
+    #banner.displayBanner {
+        top: 125px;
+        
+        right: 60px;
+        left: 60px;
+
+        
+    }
+
+    #banner.displayBanner div {
+        font-size: 24px;
+    }
+
+   
+
+    #hero button {
+        left: auto;
+        right: 1rem;
+        bottom: 0rem;
+        font-size: 18px;
+    }
+
+    #hero h2 {
+        text-align: left;
+        position: relative;
+        bottom: 23rem;
+        left: 3rem;
     }
 }
