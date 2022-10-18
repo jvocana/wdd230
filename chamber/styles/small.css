@@ -113,13 +113,14 @@ main section {
 #hero img {
     width: 100%;
     height: auto;
-    
+    padding: 0;
+    margin: auto;
     
 }
 
 #hero h2 {
     position: relative;
-    bottom: 15rem;
+    bottom: 14rem;
     color: var(--gray);
 }
 
@@ -129,6 +130,10 @@ main section {
     left: 50px;
     bottom: 3rem;
     
+    
+}
+
+.button {
     background-color: var(--paleBlue);
     border: 1px solid var(--paleBlue);
     border-radius: .25rem;
