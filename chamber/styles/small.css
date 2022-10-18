@@ -70,6 +70,7 @@ nav ul li a {
 }
 
 header nav ul.open {
+    z-index: 100;
     position: absolute;
     right: 0px;
     display: block;
@@ -97,7 +98,7 @@ main section {
     background-color: var(--gray);
     color: var(--dark);
     text-align: center;
-    height: 300px;
+    
     margin: 1rem;
     padding: 1rem;
 }
@@ -105,14 +106,14 @@ main section {
 #hero {
     padding: 0;
     position: relative;
-    height: 230px;
+    
     
 }
 
 #hero img {
     width: 100%;
     height: auto;
-   
+    
     
 }
 
@@ -126,8 +127,8 @@ main section {
     position: absolute;
     right: 50px;
     left: 50px;
-    bottom: 0rem;
-
+    bottom: 3rem;
+    
     background-color: var(--paleBlue);
     border: 1px solid var(--paleBlue);
     border-radius: .25rem;
@@ -187,7 +188,7 @@ hr {
     color: var(--gray);
     border: 1px solid black;
     border-radius: .25rem;
-
+    z-index: 101;
 }
 
 #banner.displayBanner button {

@@ -56,14 +56,11 @@
         font-size: 32px;
     }
 
-    #hero {
-        height: 520px;
-    }
 
     #hero button {
         left: auto;
         right: 1rem;
-        bottom: 1rem;
+        bottom: 4rem;
         font-size: 24px;
     }
 
