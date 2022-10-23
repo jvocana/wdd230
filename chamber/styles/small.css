@@ -16,6 +16,10 @@ h1, h2, h3, h4 {
     font-family: 'Merriweather', serif;
 }
 
+h1 {
+    display: none;
+}
+
 .anchor {
     text-decoration: none;
     color: var(--tan);
@@ -103,6 +107,11 @@ main section {
     padding: 1rem;
 }
 
+main section p {
+    margin: .5rem;
+    padding: .5rem;
+}
+
 #hero {
     padding: 0;
     position: relative;
@@ -120,19 +129,24 @@ main section {
 
 #hero h2 {
     position: relative;
-    bottom: 14rem;
+    bottom: 13rem;
     color: var(--gray);
 }
 
-#hero button {
+#hero a#joinChamberHero {
     position: absolute;
     right: 50px;
     left: 50px;
     bottom: 3rem;
-    
+   
+}
+.buttonAnchor {
+    color: var(--gray);
+    background-color: var(--paleBlue);    
+    padding: .5rem;
+    border-radius: .25rem;
     
 }
-
 .button {
     background-color: var(--paleBlue);
     border: 1px solid var(--paleBlue);

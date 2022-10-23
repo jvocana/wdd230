@@ -23,7 +23,7 @@ function toggleMenu() {
     document.querySelector('#primaryNav').classList.toggle('open');
 }
 
-document.querySelector('#menuButton').onclick = toggleMenu;
+document.querySelector('#menuButton').addEventListener('click', toggleMenu);
 
 
 

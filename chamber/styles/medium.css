@@ -57,7 +57,7 @@
     }
 
 
-    #hero button {
+    #hero a#joinChamberHero {
         left: auto;
         right: 1rem;
         bottom: 4rem;
