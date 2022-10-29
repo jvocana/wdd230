@@ -1,0 +1,22 @@
+
+main {
+    display: grid;
+    
+}
+main picture {
+    margin: auto;
+    padding: 2rem;
+}
+main picture img {
+    width: 400px;
+    height: auto;
+}
+
+main img[data-src] {
+    filter: blur(.2em);
+}
+
+main img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
