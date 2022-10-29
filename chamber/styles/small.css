@@ -31,25 +31,32 @@ h1 {
 
 header {
     display: flex;
-    
+    justify-content: space-evenly;
     align-items: center;
     margin: .5rem;
 }
+header picture img {
+    width: 100%;
+    height: auto;
+}
 
-header img {
-    width: 60%;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: .5rem;
+
+
+header div a img {
+    width: 15%;
+    margin-left: 3rem;
+    margin: 0 0 0 5rem;
+    
 }
 
 header div {
-    margin: auto;
+    margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 header div a {
-    margin: 1rem;
+    display: none;
+    
 }
 
 
@@ -123,20 +130,19 @@ main section p {
     width: 100%;
     height: auto;
     padding: 0;
-    
+    background-image: 'text';
     
 }
 
 #hero h2 {
     position: relative;
-    bottom: 13rem;
+    bottom: 15rem;
     color: var(--gray);
 }
 
 #hero a#joinChamberHero {
     position: absolute;
-    right: 50px;
-    left: 50px;
+    right: 1rem;
     bottom: 3rem;
    
 }
@@ -166,13 +172,21 @@ main section p {
     border: 1px solid black;
 }
 
+#spotlights div h3 {
+    padding: .5rem;
+}
+
+#spotlights div picture img {
+    width: 50%;
+    height: auto;
+}
 
 footer {
     text-align: center;
     color: var(--green);
 }
 
-footer img {
+footer div picture img {
     width: 100%;
     padding: .5rem;    
 }

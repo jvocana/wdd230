@@ -14,9 +14,11 @@
         order: 3;
     }
 
-    header img {
-        width: 30%;
+    header picture img {
+        width: 100%;
+        height: auto;
     }
+    
 
     header nav ul {
         display: flex;
@@ -83,7 +85,7 @@
         font-size: 24px;
     }
 
-   
+    
 
     #hero a#joinChamberHero {
         left: auto;

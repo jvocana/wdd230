@@ -24,13 +24,21 @@
 
         <!-- javascript -->
         <script src="scripts/base.js" defer></script>
+        <script src="scripts/windchill.js" defer></script>
        
        
 </head>
 <body>
     <header>
         <h1>Provo Chamber of Commerce</h1>
-        <img src="images/chamberLogoWhite.png" alt="Provo Chamber of commerce Logo with mountains">
+        <picture>
+            <!-- medium view --> 
+            <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/chamberLogo/chamberLogoWhiteMedium.png" >
+            <!-- large view --> 
+            <source media="(min-width: 62.5em)" srcset="images/chamberLogo/chamberLogoWhiteLarge.png" >
+            <!-- small view --> 
+            <img media="(max-width: 32.4em)" src="images/chamberLogo/chamberLogoWhiteSmall.png" alt="Provo Chamber of Commerce logo">
+        </picture>
         <div>
             <!-- social media icons -->
             <a href="www.facebook.com"><img src="images/facebook-logo-white.svg" alt="facebook logo"></a>
@@ -49,12 +57,19 @@
         <div id="banner"></div>
     </header>
     <main>
-        <section id="hero">
-            <img src="images/provoHero.jpg" alt="Aerial view of the Provo temple with mountains in the background">
+        <div id="hero">
+            <picture>
+                <!-- medium view --> 
+                <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/wdd230-org/wdd230-orgMedium.jpg">
+                <!-- large view --> 
+                <source media="(min-width: 62.5em)" srcset="images/wdd230-org/wdd230-orgLarge.jpg">
+                <!-- small view --> 
+                <img media="(max-width: 32.4em)" src="images/wdd230-org/wdd230-org copySmall.jpg" alt="People having a meeting at a desk.">
+            </picture>
             <h2>Welcome to Provo</h2>
             
             <a href="index.html" class="anchor buttonAnchor" id="joinChamberHero">Join the Chamber</a>
-        </section>
+        </div>
         <section id="event">
             <h3>Event</h3>
             <h4>Location</h4>
@@ -63,11 +78,11 @@
         <section id="weather">
             <h3>Weather</h3>
             <img src="images/" alt="icon depicting the current weather">
-            <p>72F</p>
+            <p><span id="temperature">72</span>F</p>
             <p>Partly Sunny</p>
             <hr>
-            <p>Wind Speed: #</p>
-            <p>Wind Chill: #</p>
+            <p>Wind Speed: <span id="windSpeed">10</span>mph</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
         </section>
         <section id="newsRelease">
             <h3>News Release</h3>
@@ -75,22 +90,38 @@
         </section>
         <section id="spotlights">
             <div>
-                <h3>Business 1</h3>
-                <img src="images/" alt="Company logo">
-                <p>slogan</p>
+                <h3>Provo Climbing Center</h3>
+                <picture>
+                    <!-- medium view --> 
+                    <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/climbingLogos/climbingMedium.png" >
+                    <!-- large view --> 
+                    <source media="(min-width: 62.5em)" srcset="images/climbingLogos/climbingLarge.png" >
+                    <!-- small view --> 
+                    <img media="(max-width: 32.4em)" src="images/climbingLogos/climbingSmall.png" alt="Provo Chamber of Commerce logo">
+                </picture>
+                
+                <p>Achieve new heights through Climbing.</p>
                 <hr>
                 <p>someone@email.com</p>
                 <p>(801)-999-0000</p>
-                <a href="index.html" class="anchor">business.com</a>
+                <a href="index.html" class="anchor">provoClimbing.com</a>
             </div>
             <div>
-                <h3>Business 2</h3>
-                <img src="images/" alt="Company logo">
-                <p>slogan</p>
+                <h3>Aunt May's Cookies</h3>
+                <picture>
+                    <!-- medium view --> 
+                    <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/cookieLogos/cookieMedium.png" >
+                    <!-- large view --> 
+                    <source media="(min-width: 62.5em)" srcset="images/cookieLogos/cookieLarge.png" >
+                    <!-- small view --> 
+                    <img media="(max-width: 32.4em)" src="images/cookieLogos/cookieSmall.png" alt="Provo Chamber of Commerce logo">
+                </picture>
+                
+                <p>One bite is all it takes</p>
                 <hr>
                 <p>someone@email.com</p>
                 <p>(801)-999-0000</p>
-                <a href="index.html" class="anchor">business.com</a>
+                <a href="index.html" class="anchor">auntmayscookies.com</a>
             </div>
         </section>
         <section id="join">
@@ -100,7 +131,12 @@
     </main>
     <footer>
         <div>
-            <img src="images/chamberLogoWhite.png" alt="Provo chamber of commerce logo with mountains">
+            <picture>
+                <!-- large view --> 
+                <source media="(min-width: 62.5em)" srcset="images/chamberLogo/chamberLogoWhiteLarge.png" >
+                <!-- small and medium view --> 
+                <img media="(max-width: 62.4em)" src="images/chamberLogo/chamberLogoWhiteMedium.png" alt="Provo Chamber of Commerce logo">
+            </picture>
             <section id="address">
                 
                 <p>12345 center street</p>

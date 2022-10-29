@@ -5,7 +5,20 @@
         grid-template-columns: 2fr 1fr;
     }
     
+    header picture img {
+        width: 100%;
+        height: auto;
+    }
 
+    header div a {
+        
+        display: block;
+        margin: auto;
+    }
+
+   
+
+    
     #spotlights {
         grid-template-columns: 1fr 1fr;
     }
