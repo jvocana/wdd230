@@ -87,6 +87,7 @@ header nav ul.open {
     display: block;
     background-color: var(--green);
     width: 100%;
+    
 }
 
 body {
@@ -242,4 +243,16 @@ hr {
     padding-bottom: .5rem;
     display: block;
     text-align: center; 
+}
+
+
+/* discover */
+
+body#discover main {
+    display: block;
+}
+
+body#discover main section picture img {
+    width: 100%;
+    height: auto;
 }
