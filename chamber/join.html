@@ -59,77 +59,32 @@
         <div id="banner"></div>
     </header>
     <main>
-        <div id="hero">
-            <picture>
-                <!-- medium view --> 
-                <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/hero/provoHeroMedium.jpg">
-                <!-- large view --> 
-                <source media="(min-width: 62.5em)" srcset="images/hero/provoHeroLarge.jpg">
-                <!-- small view --> 
-                <img media="(max-width: 32.4em)" src="images/hero/provoHeroSmall.jpg" alt="Aerial view of provo and the surrounding mountains.">
-            </picture>
-            <h2>Welcome to Provo</h2>
-            
-            <a href="index.html" class="anchor buttonAnchor" id="joinChamberHero">Join the Chamber</a>
-        </div>
-        <section id="event">
-            <h3>Event</h3>
-            <h4>Location</h4>
-            <p>asd;lfk as;dlk sdl;lkjwoieaweop m,em.w/ me.,mq wemqeq;lkejq w;lkqjw;e q.w,me .qwe,.m</p>
-        </section>
-        <section id="weather">
-            <h3>Weather</h3>
-            <img src="images/" alt="icon depicting the current weather">
-            <p><span id="temperature">72</span>F</p>
-            <p>Partly Sunny</p>
-            <hr>
-            <p>Wind Speed: <span id="windSpeed">10</span>mph</p>
-            <p>Wind Chill: <span id="windChill"></span></p>
-        </section>
-        <section id="newsRelease">
-            <h3>News Release</h3>
-            <p>Recent news in the community has indicated that it is possible to jopin this chamber of commerce.</p>
-        </section>
-        <section id="spotlights">
-            <div>
-                <h3>Provo Climbing Center</h3>
-                <picture>
-                    <!-- medium view --> 
-                    <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/climbingLogos/climbingMedium.png" >
-                    <!-- large view --> 
-                    <source media="(min-width: 62.5em)" srcset="images/climbingLogos/climbingLarge.png" >
-                    <!-- small view --> 
-                    <img media="(max-width: 32.4em)" src="images/climbingLogos/climbingSmall.png" alt="Provo Chamber of Commerce logo">
-                </picture>
-                
-                <p>Achieve new heights through Climbing.</p>
-                <hr>
-                <p>someone@email.com</p>
-                <p>(801)-999-0000</p>
-                <a href="index.html" class="anchor">provoClimbing.com</a>
-            </div>
-            <div>
-                <h3>Aunt May's Cookies</h3>
-                <picture>
-                    <!-- medium view --> 
-                    <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/cookieLogos/cookieMedium.png" >
-                    <!-- large view --> 
-                    <source media="(min-width: 62.5em)" srcset="images/cookieLogos/cookieLarge.png" >
-                    <!-- small view --> 
-                    <img media="(max-width: 32.4em)" src="images/cookieLogos/cookieSmall.png" alt="Provo Chamber of Commerce logo">
-                </picture>
-                
-                <p>One bite is all it takes</p>
-                <hr>
-                <p>someone@email.com</p>
-                <p>(801)-999-0000</p>
-                <a href="index.html" class="anchor">auntmayscookies.com</a>
-            </div>
-        </section>
-        <section id="join">
-            <a href="index.html" class="anchor buttonAnchor">Join Us!</a>
-            <p>Become a member of the chamber and witness for yourself how much we can bring to the table.</p>
-        </section>
+        <form method="get" action="thankyou.html">
+        
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name <input type="text" name="fname" required=""></label>
+                <label class="top">Last Name <input type="text" name="lname" required=""></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required=""></label>
+                <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234" required=""></label>
+                <label class="top">Business Position <div>Must contain only letters and hyphens and must be 7+ characters</div> <input type="text" name="busPosition" pattern="[A-Za-z- ]{7,}"></label>
+                <label class="top">Business Name <input type="text" name="busName" required=""></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="memLevel" value="NP">Non-Profit, no fee</label>
+                <label class="sbs"><input type="radio" name="memLevel" value="Bronze">Bronze $500/yr</label>
+                <label class="sbs"><input type="radio" name="memLevel" value="Silver">Silver $1,000/yr</label>
+                <label class="sbs"><input type="radio" name="memLevel" value="Gold">Gold $1,500/yr</label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Description</legend>
+                <div>Briefly describe you business below</div>
+                <textarea rows="5" name="description"></textarea>
+            </fieldset>
+            <input type="submit" value="Submit My Application" class="submitBtn">
+            <div id="currFormTime"></div>
+            </form>
     </main>
     <footer>
         <div>
