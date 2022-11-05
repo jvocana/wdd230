@@ -1,0 +1,56 @@
+:root {
+    --border: rgb(187,187,187);
+    --head: rgb(129,185,193);	
+    --columnHead: rgb(100,141,165);
+    --backgray: rgb(231,240,237);
+    --backgreen: rgb(232,255,238);
+}
+
+
+
+table {
+    font-family:Ubuntu, sans-serif;
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 30px var(--columnHead);
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+th, td {
+    padding: .25rem;
+    border: 1px solid var(--border);
+}
+thead {
+    background-color: var(--columnHead);
+    color: white;
+}
+tr:first-child th {
+    background-color: var(--head);
+    color: black;
+}
+tbody tr {
+    background-color: var(--backgray);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--backgreen);
+}
+
+tbody tr:nth-child(4) td:nth-child(3) {
+    background-color: var(--columnHead);
+    color: white;
+}
+
+tfoot {
+    background-color: var(--head);
+    font-size: 10px;
+}
+
+@media (min-width: 25em) {
+    table {
+        width: 250px;
+    }
+}
