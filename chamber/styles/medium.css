@@ -83,4 +83,8 @@
         bottom: 30rem;
         left: 4rem;
     }
+
+    form textarea {
+        width: 50%;
+    }
 }
