@@ -1,0 +1,45 @@
+body {
+    max-width: 1300px;
+    margin: auto;
+}
+
+header, footer {
+    
+    text-align: center;
+}
+
+
+.cards {
+    background-color: rgba(0,0,0,.2);
+    padding: 1rem;
+    
+}
+
+.cards section {
+    display: block;
+    border: 1px solid black;
+    background-color: rgb(80, 94, 89);
+    padding: .5rem;
+    text-align: center;
+    margin: .5rem;
+    color: white;
+}
+
+.cards section div:nth-child(3) {
+    
+    padding: .25rem;
+}
+
+.cards section img {
+    width: 100%;
+    height: auto;
+    
+}
+
+@media (min-width: 32em) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+}
+
