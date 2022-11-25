@@ -24,7 +24,7 @@
 
         <!-- javascript -->
         <script src="scripts/base.js" defer></script>
-        <script src="scripts/windchill.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
        
        
 </head>
@@ -72,22 +72,23 @@
             <a href="index.html" class="anchor buttonAnchor" id="joinChamberHero">Join the Chamber</a>
         </div>
         <section id="event">
-            <h3>Event</h3>
-            <h4>Location</h4>
-            <p>asd;lfk as;dlk sdl;lkjwoieaweop m,em.w/ me.,mq wemqeq;lkejq w;lkqjw;e q.w,me .qwe,.m</p>
+            <h3>New member meet and greet</h3>
+            <h4>Provo Park</h4>
+            <p>All new members are invited to come and meet with the chamber of commerce and celebrate their new membership. visitors are also welcome!</p>
         </section>
         <section id="weather">
             <h3>Weather</h3>
-            <img src="images/" alt="icon depicting the current weather">
-            <p><span id="temperature">72</span>F</p>
-            <p>Partly Sunny</p>
+            <img src="" alt="" id="weather-icon">
+            <p><span id="temperature"></span>F</p>
+            <p id="description"></p>
             <hr>
-            <p>Wind Speed: <span id="windSpeed">10</span>mph</p>
+            <p>Wind Speed: <span id="windSpeed"></span>mph</p>
             <p>Wind Chill: <span id="windChill"></span></p>
+            <p>Humidity: <span id="humidity"></span></p>
         </section>
         <section id="newsRelease">
             <h3>News Release</h3>
-            <p>Recent news in the community has indicated that it is possible to jopin this chamber of commerce.</p>
+            <p>We are proud to announce that we are accepting new members into the chamber. Make sure you chekc out what we can offer! This opportunity doesn't come often. Take advantage of it while you can.</p>
         </section>
         <section id="spotlights">
             <div>
@@ -154,6 +155,7 @@
         <section id="info">
             <div id="projectInfo"></div>
             <div id="lastModified"></div>
+            <div>Weather Data provided by:<a href="https://openweathermap.org" class="anchor"> OpenWeatherMap</a></div>
         </section>
 
     </footer>

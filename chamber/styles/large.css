@@ -35,7 +35,7 @@
     #event {
         grid-column: 1;
         grid-row: 1;
-        height: 185px;
+        
     }
 
     #hero {
@@ -56,7 +56,7 @@
     #weather {
         grid-column: 1;
         grid-row: 2;
-        height: 185px;
+        
     }
 
     #weather p {
