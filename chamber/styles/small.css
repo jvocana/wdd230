@@ -355,3 +355,13 @@ form #currFormTime {
 .directory .menu {
     display: none;
 }
+
+.contactus {
+    display: block;
+}
+
+
+.contactus .submitBtn {
+    margin: .5rem;
+}
+

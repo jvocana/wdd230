@@ -24,10 +24,11 @@
 
         <!-- javascript -->
         <script src="scripts/base.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
        
        
 </head>
-<body id="discover">
+<body>
     <header>
         <h1>Provo Chamber of Commerce</h1>
         <a href="index.html">
@@ -57,12 +58,29 @@
         </nav>
         <div id="banner"></div>
     </header>
-    <main class="directory">
-        <div class="menu">
-            <button id="grid">grid</button>
-            <button id="list">list</button>
-        </div>
-        <div id="directoryWrapper" class="grid">
+    <main class="contactus">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label class="top">Name<input type="text" name="fname" required></label>
+                <label class="top">Email<input type="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Questions or Concerns<input type="text" name="questions" required></label>
+                <input type="submit" value="Submit My Question" class="submitBtn">
+            </fieldset> 
+        </form>
+
+        
+        
+            
+            
+        <div id="contactInfo">
+            <section>
+                <h3>Contact Information</h3>
+                <p>Yakima Chamber of Commerce</p>
+                <p>123456 W Yakima ave.</p>
+                <p>Yakima WA, 98908</p>
+                <p>(509)-380-5566</p>
+            </section>
         </div>
     </main>
     <footer>
