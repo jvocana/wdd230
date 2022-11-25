@@ -125,15 +125,15 @@ function displayGoldMembers (businesses) {
 
         let picture = document.createElement('picture');
         
-        let source1 = document.createElement('source');
-        source1.setAttribute('srcset', businesses.logo[2]);
-        source1.setAttribute('media', '(min-width: 75em)');
-        source1.setAttribute('loading', 'lazy');
+        // let source1 = document.createElement('source');
+        // source1.setAttribute('srcset', businesses.logo[2]);
+        // source1.setAttribute('media', '(min-width: 75em)');
+        // source1.setAttribute('loading', 'lazy');
         
-        let source2 = document.createElement('source');
-        source2.setAttribute('srcset', businesses.logo[1]);
-        source2.setAttribute('media', '(min-width: 40em) and (max-width: 74.9em)');
-        source2.setAttribute('loading', 'lazy');
+        // let source2 = document.createElement('source');
+        // source2.setAttribute('srcset', businesses.logo[1]);
+        // source2.setAttribute('media', '(min-width: 40em) and (max-width: 74.9em)');
+        // source2.setAttribute('loading', 'lazy');
         
         let img = document.createElement('img');
         img.setAttribute('src', businesses.logo[0]);
@@ -151,8 +151,8 @@ function displayGoldMembers (businesses) {
         let p3 = document.createElement('p');
         p3.textContent = businesses.email;
 
-        picture.appendChild(source1);
-        picture.appendChild(source2);
+        // picture.appendChild(source1);
+        // picture.appendChild(source2);
         picture.appendChild(img);
 
         div.appendChild(h2);
