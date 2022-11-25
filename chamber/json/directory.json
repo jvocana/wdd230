@@ -1,0 +1,86 @@
+{
+    "businesses": [
+    {
+        "name": "Provo Climbing Center",
+        "websiteurl": "www.provoclimbing.com",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/climbingLogos/climbingSmall.png", "https://jvocana.github.io/wdd230/chamber/images/climbingLogos/climbingMedium.png", "https://jvocana.github.io/wdd230/chamber/images/climbingLogos/climbingLarge.png"],
+        "phone": "(801)509-3838",
+        "membership": "silver",
+        "slogan": "Achieve New Heights Through Climbing.",
+        "email": "someone@provoclimbing.com"
+    },
+    {
+        "name": "Aunt May's Cookies",
+        "websiteurl": "www.auntmayscookies.com",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/cookieLogos/cookieSmall.png", "https://jvocana.github.io/wdd230/chamber/images/cookieLogos/cookieMedium.png", "https://jvocana.github.io/wdd230/chamber/images/cookieLogos/cookieLarge.png"],
+        "phone": "(801)507-3768",
+        "membership": "bronze",
+        "slogan": "We'll have you at the first bite.",
+        "email": "sales@mayscookies.com"
+    },
+    {
+        "name": "Provo Mcdonald's",
+        "websiteurl": "www.provomcdonalds.com",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/provoMcdonalds/mcdonaldsSmall.png", "https://jvocana.github.io/wdd230/chamber/images/provoMcdonalds/mcdonaldsMedium.png", "https://jvocana.github.io/wdd230/chamber/images/provoMcdonalds/mcdonaldsLarge.png"],
+        "phone": "(801)506-1324",
+        "membership": "bronze",
+        "slogan": "Better service, better food.",
+        "email": "management@provomcds.com"
+    },
+    {
+        "name": "Wing Zone",
+        "websiteurl": "www.wingzoneprovo.com",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/wingZone/wingZoneSmall.png", "https://jvocana.github.io/wdd230/chamber/images/wingZone/wingZoneMedium.png", "https://jvocana.github.io/wdd230/chamber/images/wingZone/wingZoneLarge.png"],
+        "phone": "(801)507-4424",
+        "membership": "gold",
+        "slogan": "Anything goes in the Wing Zone",
+        "email": "contactus@wingzone.com"
+    },
+    {
+        "name": "Get Thrifty",
+        "websiteurl": "www.getthrifty.com",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/getThrifty/getThriftySmall.png", "https://jvocana.github.io/wdd230/chamber/images/getThrifty/getThriftyMedium.png", "https://jvocana.github.io/wdd230/chamber/images/getThrifty/getThriftyLarge.png"],
+        "phone": "(801)507-2173",
+        "membership": "gold",
+        "slogan": "Your trash is anothers treasure.",
+        "email": "sales@getthrifty.com"
+    },
+    {
+        "name": "Mountain View Ski Supply",
+        "websiteurl": "www.mountainviewski.com",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/mountainViewSki/mountainViewSkiSmall.png", "https://jvocana.github.io/wdd230/chamber/images/mountainViewSki/mountainViewSkiMedium.png", "https://jvocana.github.io/wdd230/chamber/images/mountainViewSki/mountainViewSkiLarge.png"],
+        "phone": "(801)504-3226",
+        "membership": "gold",
+        "slogan": "Your gateway to the best skiing in the world.",
+        "email": "mountainview.ski@gmail.com"
+    },
+    {
+        "name": "Lawn Masters",
+        "websiteurl": "www.provolawnmasters.com",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/lawnMasters/lawnMastersSmall.png", "https://jvocana.github.io/wdd230/chamber/images/lawnMasters/lawnMastersMedium.png", "https://jvocana.github.io/wdd230/chamber/images/lawnMasters/lawnMastersLarge.png"],
+        "phone": "(801)507-2225",
+        "membership": "bronze",
+        "slogan": "Let the masters handle your yard.",
+        "email": "inquiry@lawnmasters.com"
+    },
+    {
+        "name": "Dj's Phone Repair",
+        "websiteurl": "www.djphonerepair.com",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/djPhone/djPhoneSmall.png", "https://jvocana.github.io/wdd230/chamber/images/djPhone/djPhoneMedium.png", "https://jvocana.github.io/wdd230/chamber/images/djPhone/djPhoneLarge.png"],
+        "phone": "(801)507-3268",
+        "membership": "bronze",
+        "slogan": "Make your phone last.",
+        "email": "sales@djphones.com"
+    },
+    {
+        "name": "Pizza Time",
+        "websiteurl": "www.pizzatime.com",
+        "logo": ["https://jvocana.github.io/wdd230/chamber/images/pizzaTime/pizzaTimeSmall.png", "https://jvocana.github.io/wdd230/chamber/images/pizzaTime/pizzaTimeMedium.png", "https://jvocana.github.io/wdd230/chamber/images/pizzaTime/pizzaTimeLarge.png"],
+        "phone": "(801)517-3768",
+        "membership": "bronze",
+        "slogan": "Better than Frozen",
+        "email": "sales@pizzatime.com"
+    }
+    
+    ]
+}

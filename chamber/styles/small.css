@@ -349,3 +349,39 @@ form textarea {
 form #currFormTime {
     display: none;
 }
+
+/* directory.html */
+.directory {
+    display: block;
+}
+.directory .menu {
+    text-align: center;
+    margin: .5rem;
+}
+.directory section img {
+    height: 100px;
+    width: auto;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+.list section {
+    display: flex;
+    align-items: center;
+}
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}

@@ -24,11 +24,10 @@
 
         <!-- javascript -->
         <script src="scripts/base.js" defer></script>
-        <script src="scripts/windchill.js" defer></script>
        
        
 </head>
-<body>
+<body id="discover">
     <header>
         <h1>Provo Chamber of Commerce</h1>
         <a href="index.html">
@@ -57,35 +56,13 @@
         </nav>
         <div id="banner"></div>
     </header>
-    <main class="form">
-        <h2 class="form">Chamber of Commerce Membership Application</h1>
-
-        <form method="get" action="thankyou.html">
-        
-        <fieldset>
-            <legend>Applicant Information</legend>
-            <label class="top">First Name <input type="text" name="fname" required></label>
-            <label class="top">Last Name <input type="text" name="lname" required></label>
-            <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
-            <label class="top">Business Position <div>Must contain only letters and hyphens and must be 7+ characters</div> <input type="text" name="busPosition" pattern="[A-Za-z- ]{7,}"></label>
-            <label class="top">Business Name <input type="text" name="busName" required></label>
-        </fieldset>
-        <fieldset>
-            <legend>Membership Level</legend>
-            <label class="sbs"><input type="radio" name="memLevel" value="NP">Non-Profit, no fee</label>
-            <label class="sbs"><input type="radio" name="memLevel" value="Bronze">Bronze $500/yr</label>
-            <label class="sbs"><input type="radio" name="memLevel" value="Silver">Silver $1,000/yr</label>
-            <label class="sbs"><input type="radio" name="memLevel" value="Gold">Gold $1,500/yr</label>
-        </fieldset>
-        <fieldset>
-            <legend>Business Description</legend>
-            <div>Briefly describe you business below</div>
-            <textarea rows = "5" name = "description" name="textarea"></textarea>
-        </fieldset>
-        <input type="submit" value="Submit My Application" class="submitBtn">
-        <div id="currFormTime"></div>
-        </form>
+    <main class="directory">
+        <div class="menu">
+            <button id="grid">grid</button>
+            <button id="list">list</button>
+        </div>
+        <div id="directoryWrapper" class="grid">
+        </div>
     </main>
     <footer>
         <div>
