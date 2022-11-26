@@ -4,7 +4,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 
-const url = 'http://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=d4ecc5f5851ad237ea92914d71ff33e2'
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=d4ecc5f5851ad237ea92914d71ff33e2'
 
 function displayResults (data) {
     currentTemp.textContent = data.main.temp;
