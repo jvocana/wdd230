@@ -115,6 +115,19 @@
         
     }
 
+
+    body#discover main {
+        display: block;
+        max-width: 1500px;
+        margin: auto;
+        
+    }
+    
+    body#discover main section {
+        max-width: 1000px;
+        margin: auto;
+    }
+
     h2.form {
         font-size: 24px;
     }

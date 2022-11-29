@@ -251,6 +251,14 @@ hr {
 
 body#discover main {
     display: block;
+    max-width: 100%;
+    margin: auto;
+    
+}
+
+body#discover main section {
+    max-width: 90%;
+    margin: auto;
 }
 
 body#discover main section picture img {
