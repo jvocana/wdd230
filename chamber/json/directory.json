@@ -23,7 +23,7 @@
         "websiteurl": "www.provomcdonalds.com",
         "logo": ["https://jvocana.github.io/wdd230/chamber/images/provoMcdonalds/mcdonaldsSmall.png", "https://jvocana.github.io/wdd230/chamber/images/provoMcdonalds/mcdonaldsMedium.png", "https://jvocana.github.io/wdd230/chamber/images/provoMcdonalds/mcdonaldsLarge.png"],
         "phone": "(801)506-1324",
-        "membership": "bronze",
+        "membership": "silver",
         "slogan": "Better service, better food.",
         "email": "management@provomcds.com"
     },
@@ -77,7 +77,7 @@
         "websiteurl": "www.pizzatime.com",
         "logo": ["https://jvocana.github.io/wdd230/chamber/images/pizzaTime/pizzaTimeSmall.png", "https://jvocana.github.io/wdd230/chamber/images/pizzaTime/pizzaTimeMedium.png", "https://jvocana.github.io/wdd230/chamber/images/pizzaTime/pizzaTimeLarge.png"],
         "phone": "(801)517-3768",
-        "membership": "bronze",
+        "membership": "gold",
         "slogan": "Better than Frozen",
         "email": "sales@pizzatime.com"
     }
