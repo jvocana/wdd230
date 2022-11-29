@@ -11,9 +11,8 @@
     }
 
     header div a {
-        
-        display: grid;
-        margin: auto;
+        display: block;
+        width: 150px;
     }
 
    
@@ -42,6 +41,7 @@
     footer {
         display: block;
         margin: .5rem;
+        font-size: 10px;
     }
 
     footer div {
@@ -84,8 +84,20 @@
         left: 4rem;
     }
 
-    form textarea {
-        width: 50%;
+    form {
+        display: grid;
+    }
+    form legend {
+        margin: auto;
+    }
+    form fieldset {
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+
+    form fieldset input {
+        margin: auto;
     }
 
     /* directory.html */
