@@ -168,10 +168,11 @@ main section p {
 }
 
 #spotlights div {
-    margin: .5rem;
+    margin: 1rem 1rem auto auto;
     padding: .5rem;
     border: 1px solid black;
     background-color: var(--paleBlue);
+    max-width: 90%;
 }
 
 #spotlights div h3 {
