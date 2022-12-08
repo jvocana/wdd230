@@ -1,0 +1,22 @@
+:root {
+    --red: #FA7268;
+    --green: #385E5E;
+    --yellow: #ECA400;
+    --white: #E0E0CE;
+}
+
+
+
+main {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+h1, h2, h3 {
+    color: var(--red);
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+}
