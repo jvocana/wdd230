@@ -84,12 +84,15 @@ h1 {
     display: none;
 }
 
+
 .logo {
     width: 50%;
     height: auto;
     background-color: var(--white);
     border-radius: 10rem;
     margin-top: 1rem;
+    display: block;
+    
 }
 
 picture {

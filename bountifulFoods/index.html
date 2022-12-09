@@ -12,6 +12,9 @@
         <link rel="shortcut icon" href="favicon.ico">
 
         <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway&display=swap" rel="stylesheet">
 
         <!-- css -->
         <link rel="stylesheet" href="styles/normalize.css">
@@ -28,12 +31,20 @@
 <body>
     <header>
         <h1>Bountiful Foods</h1>
+        <!--logo-->
+        <picture>
+            <a href="index.html"><img src="images/bountifulFoodsLogo.png" alt="Bountiful Foods logo" class="logo"></a>
+            
+        </picture>
+        
         <nav>
             <button id="menuButton">☰</button>
             <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="fresh.html">Custom Order</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="index.html" class="anchor">Home</a></li>
+                <li class="seperator">|</li>
+                <li><a href="fresh.html" class="anchor">Custom Order</a></li>
+                <li class="seperator">|</li>
+                <li><a href="aboutus.html" class="anchor">About Us</a></li>
             </ul>
         </nav>
     </header>
@@ -103,10 +114,18 @@
 
     </main>
     <footer>
-       <!--logo-->
+       
+        <!--logo-->
+        <picture>
+            <img src="images/bountifulFoodsLogo.png" alt="Bountiful Foods logo" class="logo">
+        </picture>
+        <!--social media-->
+        <div class="socialMedia">
+            <a href="www.facebook.com"><img src="images/facebook.svg" alt="facebook logo"></a>
+            <a href="www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin logo"></a>
+        </div>
+         <!--last modified-->
+        <div id="lastModified"></div>
 
-       <!--contact info-->
-
-       <!--map-->
     </footer>
 </body>
