@@ -12,6 +12,9 @@
         <link rel="shortcut icon" href="favicon.ico">
 
         <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway&display=swap" rel="stylesheet">
 
         <!-- css -->
         <link rel="stylesheet" href="styles/normalize.css">
@@ -28,39 +31,49 @@
     <header>
         <h1>Bountiful Foods</h1>
         <!--logo-->
-        <img src="images/bountifulFoodsLogo.svg" alt="Bountiful Foods logo" class="logo">
+        <picture>
+            <img src="images/bountifulFoodsLogo.png" alt="Bountiful Foods logo" class="logo">
+        </picture>
+        
         <nav>
             <button id="menuButton">☰</button>
             <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="fresh.html">Custom Order</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="index.html" class="anchor">Home</a></li>
+                <li class="seperator">|</li>
+                <li><a href="fresh.html" class="anchor">Custom Order</a></li>
+                <li class="seperator">|</li>
+                <li><a href="aboutus.html" class="anchor">About Us</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        📄 The About Us page provides historical information about the company and area plus contact information, 
-        and a Google Map and other relevant content.
-        If necessary, include a resource/attribution page that references outside content as a link in the footer.
-        This supplement page does not need to be styled.
-        Include the last modified date of the page in the footer using JavaScript.
-        Do not duplicate the chamber header, navigation, footer, and other general layout. 
-        You must come up with a different layout for full credit consideration on the final project.
-        Developmental Specifications
-        The following development specifications are required in addition to the customer specifications in 
-        order to receive full credit on the term project.
-        <h1>About Us</h1>
+    <main id="aboutUs">
+        <h2>About Us</h2>
         <!--History-->
         <div>
-            <h3>Our history</h3>
+            
             <!--picture of employees-->
-            <picture></picture>
+            <picture>
+                <!-- medium view --> 
+                <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/aboutus/employees/employeesMedium.png">
+                <!-- large view --> 
+                <source media="(min-width: 62.5em)" srcset="images/aboutus/employees/employeesLarge.png">
+                <!-- small view --> 
+                <img src="images/aboutus/employees/employeesSmall.png" loading="lazy" alt="Employees gathered together and smiling." width="343" height="172">
+            </picture>
+            <h3>Our history</h3>
             <p>
                 Our founder Joe Carlson started with just a truck and a dream. He would drive around everywhere around Carlsbad California
                 looking for interested customers. Being mobile was important because our presence could be felt a lot more. Just like the 
                 local Ice cream truck Joe pushed forward through every neighborhood.
             </p>
-            <picture></picture>
+            <picture>
+                <!-- medium view --> 
+                <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/aboutus/foodTruck/foodTruckMedium.png">
+                <!-- large view --> 
+                <source media="(min-width: 62.5em)" srcset="images/aboutus/foodTruck/foodTruckLarge.png">
+                <!-- small view --> 
+                <img src="images/aboutus/foodTruck/foodTruckSmall.png" loading="lazy" alt="Blue food truck." width="343" height="192">
+            </picture>
             <p>
                 Bountiful foods started with a dream. To provide healthy organic fruit based foods for everyone. We also wanted 
                 to be able to provide people iwth information about what they are eating. That includes the nutrition facts and even who 
@@ -71,27 +84,76 @@
                 Today Bountiful foods consists of four food trucks and a physical location in Carlsbad California.
                 We look forward to expanding more and more so we can provide tasty drinks for all!
             </p>
-            <picture></picture>
+            <picture>
+                <!-- medium view --> 
+                <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/aboutus/flowers/flowersMedium.jpeg">
+                <!-- large view --> 
+                <source media="(min-width: 62.5em)" srcset="images/aboutus/flowers/flowersLarge.jpeg">
+                <!-- small view --> 
+                <img src="images/aboutus/flowers/flowersSmall.jpeg" loading="lazy" alt="Field of colorful flowers." width="343" height="229">
+            </picture>
 
-            <h3>Where We Are Located</h3>
-            <p>We are located in sunny Carlsbad California. Enjoy the views of the ocean while you sip on a fresh made fruit drink.
+            <h3>Our Locations</h3>
+            <p>
+                We are located in sunny Carlsbad California. Enjoy the views of the ocean while you sip on a fresh made fruit drink.
                 Soak up the sun and cool down with a fresh nutritious beverage.
             </p>
-            <picture></picture>
-            <p>Our food trucks have gone as far north as Irvine and as south as San Diego. Make sure to checkout our social media 
+            <picture>
+                <!-- medium view --> 
+                <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/aboutus/carlsbadSign/carlsbadSignMedium.jpg">
+                <!-- large view --> 
+                <source media="(min-width: 62.5em)" srcset="images/aboutus/carlsbadSign/carlsbadSignLarge.jpg">
+                <!-- small view --> 
+                <img src="images/aboutus/carlsbadSign/carlsbadSignSmall.jpg" loading="lazy" alt="billboard that reads Carlsbad." width="343" height="214">
+            </picture>
+            <p>
+                Our food trucks have gone as far north as Irvine and as south as San Diego. Make sure to checkout our social media 
                 so you can know where we're at!
             </p>
+            <picture>
+                <!-- medium view --> 
+                <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/aboutus//beach/beachMedium.jpg">
+                <!-- large view --> 
+                <source media="(min-width: 62.5em)" srcset="images/aboutus/beach/beachLarge.jpg">
+                <!-- small view --> 
+                <img src="images/aboutus/beach/beachSmall.jpg" loading="lazy" alt="People enjoying the sunny beach." width="343" height="230">
+            </picture>
+            
         </div>
 
-        <div>
-            <!--contact info-->
+        <!--contact info-->
+        <div id="contactInfo">
             <h3>Contact Us</h3>
-
-        </div>
-        <!--map-->
+            <div id="contact">
+                <p>customersupport@bountifulfoods.com</p>
+                <p>(667)-842-3345</p>
+                <p></p>
+            </div>
+            
+            <!--google map-->
+            <iframe style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAxnPJS6LFnHQdX9O1sVjVOjHrSu20p8EM&zoom=12&center=33.1581%2C-117.3506"></iframe> 
+        
+            <div id="address">
+                <p>Visit us at our main location at:</p>
+                <p>13642 Royal lane</p>
+                <p>Carlsbad California 96642</p>
+            </div>
+        </div>  
 
     </main>
     <footer>
        
+        <!--logo-->
+        <picture>
+            <img src="images/bountifulFoodsLogo.png" alt="Bountiful Foods logo" class="logo">
+        </picture>
+        <!--social media-->
+        <div class="socialMedia">
+            <a href="www.facebook.com"><img src="images/facebook.svg" alt="facebook logo"></a>
+            <a href="www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin logo"></a>
+        </div>
+         <!--last modified-->
+        <div id="lastModified"></div>
+
     </footer>
 </body>

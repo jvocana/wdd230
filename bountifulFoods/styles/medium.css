@@ -1,0 +1,11 @@
+@media (min-width: 32.5em) {
+    .logo {
+        width: 30%;
+    }
+    #menuButton {
+        font-size: 32px;
+    }
+    #primaryNav.open {
+        top: 18rem;
+    }
+}

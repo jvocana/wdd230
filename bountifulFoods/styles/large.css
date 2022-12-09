@@ -1,0 +1,78 @@
+@media (min-width: 62em) {
+    body {
+        max-width: 1500px;
+    }
+
+    .logo {
+        width: 15%;
+        height: auto;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+    #primaryNav {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
+        background-color: rgba(0, 0, 0, .2);
+        font-size: 24px;
+        color: var(--red);
+        padding: 2rem;
+        border-radius: .25rem;
+    }
+
+    #primaryNav .anchor {
+        color: var(--yellow);
+        margin: auto;
+    }
+    #primaryNav li {
+        margin: auto;
+        padding: auto;
+    }
+    .seperator {
+        display: block;
+        color: var(--white);
+    }
+
+    #aboutUs picture img {
+        width: 80%;
+        height: auto;
+    }
+    #aboutUs h1, h2, h3 {
+        text-align: center;
+        
+    }
+    #aboutUs p {
+        width: 80%;
+        margin: auto;
+    }
+    #aboutUs #contactInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 2fr;
+    }
+    #aboutUs #contactInfo iframe {
+        grid-column: 2;
+        grid-row: 2 / 4;
+        width: 80%;
+        margin: auto;
+    }
+    #aboutUs #contactInfo h3 {
+        grid-column: 1 / 3;
+        grid-row: 1;
+    }
+    #aboutUs #contactInfo * {
+        text-align: center;
+        margin: auto;
+    }
+    #aboutUs #contactInfo div:nth-child(1) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #aboutUs #contactInfo div:nth-child(2) {
+        grid-column: 1;
+        grid-row: 3;
+        
+    }
+}

@@ -74,6 +74,7 @@ header nav ul {
     display: none;
     text-align: center;
     list-style: none;
+    padding: 0;
 }
 nav ul li a {
     display: block;
@@ -87,6 +88,7 @@ header nav ul.open {
     display: block;
     background-color: var(--green);
     width: 100%;
+    text-align: center;
     
 }
 
