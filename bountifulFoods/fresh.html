@@ -24,6 +24,7 @@
 
         <!-- javascript -->
         <script src="scripts/base.js" defer></script>
+        <script src="scripts/fresh.js" defer></script>
        
        
 </head>
@@ -61,8 +62,35 @@
         the input values of the order (7 inputs = first name, email, phone, three selected fruits, and special instructions),
         the order date, and 
         the total amount of carbohydrates, protein, fat, sugar, and calories based upon the three fruit choices selected on the form. Again, use the JSON fruit data to extract and sum up that information.
-        
+        <h2>Customize Your Own Fresh Drink</h2>
 
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name <input type="text" name="fname" required id="fname"></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required id="email"></label>
+                <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234" required id="phone"></label>
+            </fieldset>
+            <fieldset id="drinkOptions">
+                <legend>Drink Options</legend>
+                <label>Choose 3 ingredients below to add to your drink.</label>
+                
+            </fieldset>
+            
+        </form>
+        <button id="submitBtn">Submit My Order</button>
+        <div id="results">
+            <h3>Your Order</h3>
+            <div id="information">
+
+            </div>
+            <div id="ingredients"></div>
+            </div>
+            <div id="nutritionFacts">
+                
+            </div>
+        </div>
+        
     </main>
     <footer>
        
