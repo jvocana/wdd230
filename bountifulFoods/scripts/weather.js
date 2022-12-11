@@ -6,52 +6,72 @@ const captionDesc = document.querySelector('#description');
 const humidity = document.querySelector('#humidity');
 
 
-const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=d4ecc5f5851ad237ea92914d71ff33e2'
 
+let weatherContainer = document.querySelector('#conditions');
 // displays weather results to homepage widget
 function weather (data) {
-    currentTemp.textContent = Math.round(data.main.temp);
-    weatherIcon.setAttribute('src', `https://openweathermap.org/img/w/${data.weather[0].icon}.png`);
+  let card = 
+  `
+  <div class="grid">
+    <h3>Current Weather</h3>
+    <img src="${data.current.condition.icon}" alt="${data.current.condition.text}" id="weather-icon">
+    <p><span id="temperature">${Math.round(data.current.temp_f)}</span>F</p>
+    <p id="description">${data.current.condition.text}</p>
+    <p>Humidity: <span id="humidity">${data.current.humidity}</span></p>
+  </div>
+  `
 
-    weatherIcon.setAttribute('alt', data.weather[0].description);
-
-    captionDesc.textContent = data.weather[0].description;
-
-    humidity.textContent = Math.round(data.main.humidity);
-
+  weatherContainer.innerHTML = card;
     
 
     
 };
 
-const forecastUrl = 'api.openweathermap.org/data/2.5/forecast/daily?lat=44.34&lon=10.99&cnt=3&appid=d4ecc5f5851ad237ea92914d71ff33e2';
+let forecastContainer = document.querySelector('#forecast');
 
-// displays three day forecast
+
+
+
+// three day forecast
 function forecast (data) {
 
+  
+  data.forecast.forecastday.forEach(function (item) {
+    
+    
+
+    let card = 
+    `
+    <div class="grid">
+    
+      <p>${item.date}</p>
+      <img src="${item.day.condition.icon}" alt="${item.day.condition.text}">                    
+      <p><span>${item.day.avgtemp_f}</span>F</p>
+    
+    <div>
+      <p>High: <span>${item.day.maxtemp_f}</span></p>
+      <p>Low: <span>${item.day.mintemp_f}</span></p>
+    </div>
+    </div>
+    `;
+    forecastContainer.innerHTML += card;
+    
+  });
+  
+
 };
+
+const requestUrl = 'http://api.weatherapi.com/v1/forecast.json?key=4ea0bfec2b04485b98a10002221112&q=Carlsbad&days=3&aqi=no&alerts=no';
+
+
 
 async function fetchWeather() {
     try {
-      const response = await fetch(weatherUrl);
+      const response = await fetch(requestUrl);
       if (response.ok) {
-        const data = await response.json();
+        data = await response.json();
         console.log(data); // this is for testing the call
         weather(data);
-      } else {
-          throw Error(await response.text());
-      }
-    } catch (error) {
-        console.log(error);
-    }
-  }
-
-  async function fetchForecast() {
-    try {
-      const response = await fetch(forecastUrl);
-      if (response.ok) {
-        const data = await response.json();
-        console.log(data); // this is for testing the call
         forecast(data);
       } else {
           throw Error(await response.text());
@@ -60,6 +80,7 @@ async function fetchWeather() {
         console.log(error);
     }
   }
+
+
   
-  
-  fetchForecast();
+  fetchWeather();

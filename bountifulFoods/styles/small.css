@@ -1,5 +1,5 @@
 :root {
-    --red: #FA7268;
+    --red: #ff5044;
     --green: #385E5E;
     --yellow: #ECA400;
     --white: #E0E0CE;
@@ -144,6 +144,38 @@ iframe {
     width: 20%;
     height: auto;
     display: block;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+/* weather  */
+#weather {
+    background-color: var(--yellow);
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    
+}
+#weather h3 {
+    margin: auto;
+    padding: 0;
+}
+#conditions {
+    place-items: center;
+}
+#forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+#forecast div div {
+    margin: auto;
+}
+#forecast div div:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
 }
 
 /* ----------- FORM ----------- */

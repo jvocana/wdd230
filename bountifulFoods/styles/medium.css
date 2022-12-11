@@ -13,5 +13,9 @@
         
         grid-template-columns: 1fr 1fr 1fr;
     }
-
+    #weather {
+       
+        grid-template-columns: 1fr 2fr ;
+        
+    }
 }
