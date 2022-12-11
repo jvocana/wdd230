@@ -8,4 +8,10 @@
     #primaryNav.open {
         top: 18rem;
     }
+
+    form #drinkOptions div {
+        
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }

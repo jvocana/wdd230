@@ -75,4 +75,30 @@
         grid-row: 3;
         
     }
+
+
+    /* form layout */
+    form {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    form fieldset {
+        margin: 2rem;
+    }
+    form #personalInfo {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    form #specialIns {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    form #drinkOptions {
+        grid-column: 2;
+        grid-row: 1 / 3;
+    }
+    
+    
 }

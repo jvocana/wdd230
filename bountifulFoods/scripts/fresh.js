@@ -1,12 +1,13 @@
 // drink option container
-const drinkOptions = document.querySelector('#drinkOptions');
+const drinkOptions = document.querySelector('#drinkOptions div');
 
 
 function displayFruits (fruit) {
         
         let option = 
-            `<label class="sbs"><input type="checkbox" name="drinkOption" class="check" value="${fruit.name}">${fruit.name}</label>`
-        ;
+            `
+            <label class="sbs"><input type="checkbox" name="drinkOption" class="check" value="${fruit.name}">${fruit.name}</label
+            `;
 
         drinkOptions.innerHTML += option;
         
@@ -71,11 +72,17 @@ function displayResults () {
     `;
 
     document.querySelector('#nutritionFacts').innerHTML = nutritionResults;
+
+    // adding the special instructions
+    document.querySelector('#specialInstructions').innerHTML = 
+    `
+    <h4>Special Instructions</h4>
+    ${document.querySelector('#specialIns').value}
+    `
     
 }
 
-// calculating the ingredients
-const ingredients = document.querySelectorAll('.check:checked');
+
 
 
 
