@@ -61,7 +61,7 @@ function forecast (data) {
 
 };
 
-const requestUrl = 'http://api.weatherapi.com/v1/forecast.json?key=4ea0bfec2b04485b98a10002221112&q=Carlsbad&days=3&aqi=no&alerts=no';
+const requestUrl = 'https://api.weatherapi.com/v1/forecast.json?key=4ea0bfec2b04485b98a10002221112&q=Carlsbad&days=3&aqi=no&alerts=no';
 
 
 
