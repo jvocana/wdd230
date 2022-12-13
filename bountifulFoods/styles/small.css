@@ -110,6 +110,11 @@ p {
     padding: .5rem;
 }
 
+div {
+    display: block;
+    margin: auto;
+}
+
 footer {
     display: grid;
     margin-bottom: 1rem;
@@ -136,7 +141,7 @@ iframe {
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     place-content: center;
     max-width: 50%;
 }
@@ -144,6 +149,7 @@ iframe {
     width: 20%;
     height: auto;
     display: block;
+    margin: auto;
 }
 
 .grid {
