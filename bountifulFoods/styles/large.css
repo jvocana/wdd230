@@ -1,6 +1,6 @@
 @media (min-width: 62em) {
     body {
-        max-width: 1500px;
+        max-width: 1200px;
     }
 
     .logo {
@@ -101,7 +101,7 @@
     }
     
     #callToAction h2 {
-        bottom: 44rem;
+        bottom: 36rem;
         left: 12rem;
         width: 70%;
         font-size: 52px;
