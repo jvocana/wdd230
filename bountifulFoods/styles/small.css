@@ -281,3 +281,37 @@ form textarea#specialIns {
     background-color: var(--white);
     margin: auto;
 }
+
+/* home page  */
+
+#callToAction {
+    position: relative;
+}
+#callToAction h2 {
+    position: relative;
+    bottom: 13rem;
+    color: var(--white);
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    border-radius: .25rem;
+    margin: 1rem;
+}
+#callToAction a {
+    position: relative;
+    bottom: 8rem;
+    background-color: rgba(0,0,0,.3);
+    border-radius: .25rem;
+    margin: auto;
+    left: 5.5rem;
+}
+
+#callToAction a:hover {
+    background-color: var(--green);
+}
+
+.home .card {
+    border: 1px solid black;
+    margin: 2rem;
+    border-radius: .25rem;
+    text-align: center;
+}

@@ -49,23 +49,30 @@
         </nav>
     </header>
     <main class="home">
-       
-
-        3. A call to action to make your own fruit drink mix. 
-        This link can link to the 📄Fresh page.
         <!--Call to Action-->
         <div id="callToAction">
-
+            <picture>
+                <!-- medium view --> 
+                <source media="(min-width: 32.5em) and (max-width: 62.4em)" srcset="images/home/fruit.jpg">
+                <!-- large view --> 
+                <source media="(min-width: 62.5em)" srcset="images/home/fruit.jpg">
+                <!-- small view --> 
+                <img src="images/home/fruit.jpg" loading="lazy" alt="billboard that reads Carlsbad." width="343" height="214">
+            </picture>
+            <h2>Welcome to Bountiful Foods!</h2>
+            <a class="anchor" href="fresh.html">Make Your own drink</a>
         </div>
-
-        5. The weather card(s) must summarize the current weather conditions for Carlsbad.
-        Use the openweathermap APIs (weather, forecast/daily) and include
-        the temperature,
-        the condition description,
-        the humidity, and 
-        a three (3) day temperature forecast.
+        <!--Social Media-->
+        <div id="socialMedia" class="card">
+                <p>Follow us on our social media to see where our fruit truck stations will be next!</p>
+                <div class="socialMedia">
+                    <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook logo"></a>
+                    <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="linkedin logo"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram logo"></a>
+                </div>
+        </div>
         <!--Weather-->
-        <div id="weather">
+        <div id="weather" class="card">
             <h3>Weather and forecast</h3>
             <div id="conditions">
 
@@ -77,34 +84,27 @@
             </div>
         </div>
 
-        6. Include an information card about the total number of specialty drinks that the current user has submitted from the Fresh page form. 
-        This information should just be stored locally, with the users agent (browser).
+       
         <!--amount of custom drinks-->
-        <div id="numDrinks">
-
+        <div id="numDrinks" class="card">
+            <p>You've made <span>10</span> custom drinks so far.</p>
+            <p>Make sure you share your love for fresh fruit smoothies with those you love on Social Media!</p>
         </div>
+        
 
-        4. Social media links (at least three) (no account necessary).
-        <!--Social Media-->
-        <div id="socialMedia">
-                <p>Follow us on our social media to see where our fruit truck stations will be next!</p>
-                <div class="socialMedia">
-                    <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook logo"></a>
-                    <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="linkedin logo"></a>
-                    <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram logo"></a>
-                </div>
-        </div>
-
-        2. Summary information about any coastal area or areas in 
-        the southern California coast of your choosing.
+       
         <!--Area info-->
-        <div id="areaInfo">
-
+        <div id="areaInfo" class="card">
+            <p>Carlsbad is located between Los Angeles and San Diego. This makes it the perfect spot 
+                to expand a small business like ours. With the beautiful weather, we like to embrace that 
+                by using fresh locally grown fruits in our smoothies. We source all of our fruit from California
+                farmers first. We then seek product as needed throughout the United States.
+            </p>
         </div>
 
         
         <!--contact info-->
-        <div id="contactInfo" class="grid">
+        <div id="contactInfo" class="grid card">
             <h3>Come Visit Us</h3>
             <div>
                 <p>Visit us at our main location at:</p>

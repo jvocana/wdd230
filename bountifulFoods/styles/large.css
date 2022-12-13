@@ -100,5 +100,49 @@
         grid-row: 1 / 3;
     }
     
-    
+    #callToAction h2 {
+        bottom: 44rem;
+        left: 12rem;
+        width: 70%;
+        font-size: 52px;
+    }
+    #callToAction a {
+        bottom: 14rem;
+        left: 14.5rem;
+        font-size: 42px;
+    }
+    #callToAction picture img {
+        width: 80%;
+    }
+
+    /* home page layout  */
+
+    .home {
+        grid-template-columns: 1fr 1fr 1fr;
+        place-content: center;
+    }
+    .home #callToAction {
+        grid-column: 1 / 5;
+
+    }
+    .home #socialMedia {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .home #numDrinks {
+        grid-column: 3;
+        grid-row: 4;
+    }
+    .home #contactInfo {
+        grid-column: 1;
+        grid-row: 2 / 5;
+    }
+    .home #weather {
+        grid-column: 2;
+        grid-row: 2 / 5;
+    }
+    .home #areaInfo {
+        grid-column: 3;
+        grid-row: 3;
+    }
 }
