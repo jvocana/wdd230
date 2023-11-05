@@ -1,0 +1,7 @@
+@media (min-width: 32.5em) {
+    body div .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}

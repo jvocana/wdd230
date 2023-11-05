@@ -1,0 +1,300 @@
+{
+    "items": [
+        {
+            "name": "Boots",
+            "url": "https://www.revzilla.com/motorcycle/dainese-nexus-2-air-boots",
+            "picture": "https://www.revzilla.com/product_images/1897/2950/dainese_nexus2_air_boots_black_750x750.jpg",
+            "description": "The all black version of these boots will go with a lot of things as well as protect me.",
+            "category": "motorcycle"
+        },
+        {
+            "name": "Leather Jacket",
+            "url": "https://www.revzilla.com/motorcycle/dainese-intrepida-perforated-jacket",
+            "picture": "https://www.revzilla.com/product_images/1363/1344/dainese_intrepida_perforated_jacket_matte_black_750x750.jpg",
+            "description": "Black leather jacket. Dainese is a great brand and I like the way this one looks.",
+            "category": "motorcycle"
+        },
+        {
+            "name": "Motorcycle Cover",
+            "url": "https://ktmtwins.com/collections/ktm-rc-390-parts/products/ktm-hard-equipment-outdoor-protective-cover",
+            "picture": "https://ktmtwins.com/cdn/shop/products/59012007000_1200x.jpg?v=1595423474",
+            "description": "To keep the dust off my bike in the winter.",
+            "category": "motorcycle"
+        },
+        {
+            "name": "Master Cylinder Cover",
+            "url": "https://ktmtwins.com/collections/ktm-rc-390-parts/products/handbrake-cylinder-cover",
+            "picture": "https://ktmtwins.com/cdn/shop/products/Handbrake_cover_1200x.jpg?v=1571609765",
+            "description": "An upgraded and better looking cap that goes on the front brake master cylinder.",
+            "category": "motorcycle"
+        },
+        {
+            "name": "Cleaning Kit",
+            "url": "https://us.muc-off.com/collections/motorcycle-clean/products/motorcycle-ultimate-kit",
+            "picture": "https://us.muc-off.com/cdn/shop/products/Web_20093US---MOTORCYCLE-ULTIMATE-KIT_x550_crop_center.jpg?v=1626791694",
+            "description": "All of the essentials to clean my bike, including brushes and towels.",
+            "category": "motorcycle"
+        },
+        {
+            "name": "Helmet Cleaner",
+            "url": "https://new.motul.com/en-US/products/35777?product=MOTUL+MC+CARE+M1+HELMET+CLEAN+US",
+            "picture": "https://new.motul.com/_next/image?url=https%3A%2F%2Fazupim01.motul.com%2Fmedia%2FmotulData%2FIM%2Fbigweb%2Fmotul_103250_m1_helmet_clean_250ml_us_png.png&w=640&q=75",
+            "description": "A cleaner that helps get the insects off my helmet.",
+            "category": "motorcycle"
+        },
+        {
+            "name": "Zermatt Birks",
+            "url": "https://www.birkenstock.com/us/zermatt-suede-leather/zermattsuede-premiumhome-suedeleather-0-rubber-u_2087.html",
+            "picture": "https://www.birkenstock.com/dw/image/v2/BDXC_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdadfca2d/1025132/1025132.jpg?sw=848&sh=848&strip=false",
+            "description": "The Green ones are a must. (Size 42 medium/narrow).",
+            "category": "shoes"
+        },
+        {
+            "name": "Utti Birks",
+            "url": "https://www.birkenstock.com/us/utti-suede-leather/utti-snugglessuede-suedeleather-0-rubber-u_10551.html#cgid=men-shoes&prefn1=model&prefv1=Utti",
+            "picture": "https://www.birkenstock.com/dw/image/v2/BDXC_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1e3cafce/1025774/1025774.jpg?sw=848&sh=848&strip=false",
+            "description": "These ones look cool. (Size 42 medium/narrow).",
+            "category": "shoes"
+        },
+        {
+            "name": "Porsche",
+            "url": "https://www.lego.com/en-us/product/porsche-911-rsr-42096",
+            "picture": "https://www.lego.com/cdn/cs/set/assets/blt468d63d0eb6c81a8/42096.jpg?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+            "description": "Porsche 911 Lego.",
+            "category": "lego"
+        },
+        {
+            "name": "McLaren F1",
+            "url": "https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141",
+            "picture": "https://www.lego.com/cdn/cs/set/assets/blte6366e8b88d64801/42141.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+            "description": "Lego F1 car.",
+            "category": "lego"
+        },
+        {
+            "name": "BMW Motorcycle",
+            "url": "https://www.lego.com/en-us/product/bmw-m-1000-rr-42130",
+            "picture": "https://www.lego.com/cdn/cs/set/assets/blt1cedf079c8ffbe5e/42130_Prod.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+            "description": "lego sport bike.",
+            "category": "lego"
+        },
+        {
+            "name": "Luke's Speeder",
+            "url": "https://www.lego.com/en-us/product/luke-skywalker-s-landspeeder-75341",
+            "picture": "https://www.lego.com/cdn/cs/set/assets/blt524ab29e9aac7e7e/75341.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+            "description": "Luke's landspeeder Lego.",
+            "category": "lego"
+        },
+        {
+            "name": "The mandalorian",
+            "url": "https://www.lego.com/en-us/product/the-razor-crest-75331",
+            "picture": "https://www.lego.com/cdn/cs/set/assets/bltdbe9230cce3804cf/75331.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+            "description": "The mandalorian spaceship lego",
+            "category": "lego"
+        },
+        {
+            "name": "Republic Gunship",
+            "url": "https://www.lego.com/en-us/product/republic-gunship-75309",
+            "picture": "https://www.lego.com/cdn/cs/set/assets/blt91c46d94ca062573/75309.jpg?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+            "description": "Republic Gunship Lego from the Clone Wars.",
+            "category": "lego"
+        },
+        {
+            "name": "AT-AT Walker",
+            "url": "https://www.lego.com/en-us/product/at-at-75313",
+            "picture": "https://www.lego.com/cdn/cs/set/assets/blta7b7b825b6d4fc0a/75313_Prod.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+            "description": "AT-AT walker from star wars lego.",
+            "category": "lego"
+        },
+        {
+            "name": "Millenium Falcon",
+            "url": "https://www.lego.com/en-us/product/millennium-falcon-75192",
+            "picture": "https://www.lego.com/cdn/cs/set/assets/blt95c35d4ed5665a49/75192.jpg?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+            "description": "Millenium Falcon Lego",
+            "category": "lego"
+        },
+        {
+            "name": "X-Wing",
+            "url": "https://www.lego.com/en-us/product/x-wing-starfighter-75355",
+            "picture": "https://www.lego.com/cdn/cs/set/assets/blt3e07af4c83a87efd/75355.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+            "description": "X-Wing Lego Set.",
+            "category": "lego"
+        },
+        {
+            "name": "Koss KPH30i",
+            "url": "https://drop.com/buy/koss-kph30i?defaultSelectionIds=975778",
+            "picture": "https://massdrop-s3.imgix.net/product-images/koss-kph30i/Product_card_20171024125844.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&chromasub=444&q=70",
+            "description": "These headphones are apparently the best value for money by far.",
+            "category": "audio"
+        },
+        {
+            "name": "Moondrop Starfield ii",
+            "url": "https://moondroplab.com/en/products/starfield-ii",
+            "picture": "https://assets-global.website-files.com/627128d862c9a44234848dda/64ba18ed42f7724f062830ec_STARFIELD2_11.jpg",
+            "description": "Don't really know which ones to get between these and the stellaris'.",
+            "category": "audio"
+        },
+        {
+            "name": "Moondrop Stellaris",
+            "url": "https://moondroplab.com/en/products/stellaris",
+            "picture": "https://assets-global.website-files.com/627128d862c9a44234848dda/643f7c2066296a1c6e2c15de_DM_20230419132840_043.JPEG",
+            "description": "Don't really know which ones to get between these and the starfields.",
+            "category": "audio"
+        },
+        {
+            "name": "Dell Ultrawide Monitor",
+            "url": "https://www.dell.com/en-us/shop/dell-34-curved-gaming-monitor-s3422dwg/apd/210-azep/monitors-monitor-accessories",
+            "picture": "https://i.dell.com/is/image/DellContent//content/dam/images/products/electronics-and-accessories/dell/monitors/dell-gaming/s3422dwg/s3422dwg-xfp-01-bk.psd?fmt=png-alpha&pscan=auto&scl=1&hei=476&wid=524&qlt=100,1&resMode=sharp2&size=524,476&chrss=full",
+            "description": "This is the one that I broke and would love to have again.",
+            "category": "computer"
+        },
+        {
+            "name": "Gaming Chair",
+            "url": "https://secretlab.co/products/titan-evo-2022-series?sku=R22PU-Stark",
+            "picture": "https://images.secretlab.co/subimage/tr:n-display_thumbnail/R22PU-Stark_02.jpg",
+            "description": "This would be much better than the super cheap chairs I have been using.",
+            "category": "computer"
+        },
+        {
+            "name": "Black Rednecks and White Liberals",
+            "url": "https://www.amazon.com/Black-Rednecks-Liberals-Thomas-Sowell/dp/1594031436",
+            "picture": "https://m.media-amazon.com/images/I/51xQF-3f1GL._SY342_.jpg",
+            "description": "An interesting book by Thomas Sowell.",
+            "category": "books"
+        },
+        {
+            "name": "Basic Economics",
+            "url": "https://www.amazon.com/Basic-Economics-Thomas-Sowell/dp/0465060730/ref=monarch_sidesheet",
+            "picture": "https://m.media-amazon.com/images/I/61xleiZt-ZL._SY342_.jpg",
+            "description": "This is also an interesting looking book by Thomas Sowell.",
+            "category": "books"
+        },
+        {
+            "name": "Beyond Order",
+            "url": "https://www.amazon.com/Beyond-Order-More-Rules-Life/dp/0593084640/ref=sr_1_1?keywords=12+more+rules&s=books&sr=1-1",
+            "picture": "https://m.media-amazon.com/images/I/41sbYnyK7GL._SY445_SX342_.jpg",
+            "description": "I already read the first book and want the second one.",
+            "category": "books"
+        },
+        {
+            "name": "Elden Ring art book vol. ii",
+            "url": "https://www.amazon.com/Elden-Ring-Official-Art-Book/dp/1772942707/ref=sr_1_2?keywords=elden+ring+art&s=books&sr=1-2",
+            "picture": "https://m.media-amazon.com/images/I/51P7E0WPF1L._SY445_SX342_.jpg",
+            "description": "I have the first one and not the second one.",
+            "category": "books"
+        },
+        {
+            "name": "Logitech G29",
+            "url": "https://www.logitechg.com/en-us/products/driving/driving-force-racing-wheel.941-000121.html",
+            "picture": "https://resource.logitechg.com/w_572,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/drivingforce/g920-gallery-1-2.png?v=1",
+            "description": "Steering Wheel for racing games.",
+            "category": "computer"
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        },
+        
+        {
+            "name": "",
+            "url": "",
+            "picture": "",
+            "description": "",
+            "category": ""
+        }
+    
+    ]
+}

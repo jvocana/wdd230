@@ -1,0 +1,64 @@
+/*
+
+<div>
+    <h2>Boots</h2>
+    <img src="https://www.revzilla.com/product_images/1897/2950/dainese_nexus2_air_boots_black_750x750.jpg" alt="The all black version of these boots will go with a lot of things as well as protect me.">
+    <a href="https://www.revzilla.com/motorcycle/dainese-nexus-2-air-boots">https://www.revzilla.com/motorcycle/dainese-nexus-2-air-boots</a>
+    <p>The all black version of these boots will go with a lot of things as well as protect me.</p>
+</div>
+
+*/
+
+body {
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+#intro {
+    margin: auto;
+    text-align: center;
+}
+
+body div h2 {
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: .25rem;
+    background-color: azure;
+    width: 50%;
+}
+
+body div .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    max-width: 100%;
+    padding: 1rem;
+    
+}
+
+
+/* card styling */
+.card {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 1rem;
+    padding: .5rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: .25rem;
+    background-color: white;
+}
+
+.card img {
+    height: 10rem;
+    width: auto;
+    margin: auto;
+}
+
+.card a {
+   padding: .5rem;
+
+}
+
+
